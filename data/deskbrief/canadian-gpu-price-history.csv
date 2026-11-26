@@ -1,0 +1,471 @@
+observation_date,category,configuration,configuration_label,lowest_price_cad,median_retailer_low_cad,reporting_retailer_count,lowest_price_retailer,qualifying_listing_count_at_low,coverage_note
+2026-07-24,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,449.99,499.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-07-24,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,739.99,809.99,3,Memory Express,9,multiple reporting retailers
+2026-07-24,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,849.99,879.99,3,Memory Express,13,multiple reporting retailers
+2026-07-24,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1199.99,1319.99,3,Memory Express,17,multiple reporting retailers
+2026-07-24,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1769.99,1809.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-07-24,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5409.99,5649.99,3,Memory Express,11,multiple reporting retailers
+2026-07-24,gpu,rx-9070-16gb,Radeon RX 9070 16GB,869.99,899.98,3,Newegg Canada,6,multiple reporting retailers
+2026-07-24,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,999.98,3,Newegg Canada,32,multiple reporting retailers
+2026-07-25,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,449.99,499.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-07-25,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,739.99,809.99,3,Memory Express,9,multiple reporting retailers
+2026-07-25,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,879.99,889.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-07-25,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1319.99,1369.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-07-25,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1769.99,1809.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-07-25,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5409.99,5749.99,3,Memory Express,11,multiple reporting retailers
+2026-07-25,gpu,rx-9070-16gb,Radeon RX 9070 16GB,869.99,899.98,3,Newegg Canada,7,multiple reporting retailers
+2026-07-25,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,999.98,3,Newegg Canada,32,multiple reporting retailers
+2026-07-26,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,449.99,499.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-07-26,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,739.99,809.99,3,Memory Express,9,multiple reporting retailers
+2026-07-26,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,879.99,889.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-07-26,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1319.99,1369.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-07-26,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1769.99,1809.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-07-26,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5409.99,5579.99,2,Memory Express,11,multiple reporting retailers
+2026-07-26,gpu,rx-9070-16gb,Radeon RX 9070 16GB,869.99,899.98,3,Newegg Canada,7,multiple reporting retailers
+2026-07-26,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,999.98,3,Newegg Canada,32,multiple reporting retailers
+2026-07-27,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,449.99,499.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-07-27,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,739.99,829.99,3,Memory Express,9,multiple reporting retailers
+2026-07-27,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,879.99,899.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-07-27,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1319.99,1369.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-07-27,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1769.99,1809.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-07-27,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5409.99,5579.99,2,Memory Express,11,multiple reporting retailers
+2026-07-27,gpu,rx-9070-16gb,Radeon RX 9070 16GB,869.99,899.98,3,Newegg Canada,7,multiple reporting retailers
+2026-07-27,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,999.98,3,Newegg Canada,32,multiple reporting retailers
+2026-07-28,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,449.99,499.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-07-28,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,739.99,829.99,3,Memory Express,9,multiple reporting retailers
+2026-07-28,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,899.99,901.98,3,Newegg Canada,19,multiple reporting retailers
+2026-07-28,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1199.99,1319.99,3,Memory Express,17,multiple reporting retailers
+2026-07-28,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1769.99,1809.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-07-28,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5409.99,5579.99,2,Memory Express,11,multiple reporting retailers
+2026-07-28,gpu,rx-9070-16gb,Radeon RX 9070 16GB,869.99,899.98,3,Newegg Canada,13,multiple reporting retailers
+2026-07-28,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,999.98,3,Newegg Canada,32,multiple reporting retailers
+2026-07-29,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,449.99,499.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-07-29,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,739.99,829.99,3,Memory Express,9,multiple reporting retailers
+2026-07-29,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,894.99,919.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-07-29,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1299.99,1319.99,3,Newegg Canada,25,multiple reporting retailers
+2026-07-29,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1769.99,1809.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-07-29,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5649.99,5764.99,2,Newegg Canada,17,multiple reporting retailers
+2026-07-29,gpu,rx-9070-16gb,Radeon RX 9070 16GB,869.99,899.98,3,Newegg Canada,8,multiple reporting retailers
+2026-07-29,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,999.98,3,Newegg Canada,28,multiple reporting retailers
+2026-07-30,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,449.99,499.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-07-30,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,739.99,829.99,3,Memory Express,9,multiple reporting retailers
+2026-07-30,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,919.99,926.68,3,Newegg Canada,16,multiple reporting retailers
+2026-07-30,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1299.99,1319.99,3,Newegg Canada,25,multiple reporting retailers
+2026-07-30,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1769.99,1809.99,3,Best Buy Canada,17,multiple reporting retailers
+2026-07-30,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5109.99,5649.99,3,Best Buy Canada,2,multiple reporting retailers
+2026-07-30,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,899.98,3,Best Buy Canada; Newegg Canada,13,multiple reporting retailers
+2026-07-30,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.94,999.98,3,Newegg Canada,27,multiple reporting retailers
+2026-07-31,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,499.99,499.99,3,Best Buy Canada; Memory Express; Newegg Canada,29,multiple reporting retailers
+2026-07-31,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,739.99,829.99,3,Memory Express,9,multiple reporting retailers
+2026-07-31,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,919.99,926.68,3,Newegg Canada,17,multiple reporting retailers
+2026-07-31,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1199.99,1329.99,3,Memory Express,16,multiple reporting retailers
+2026-07-31,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1809.99,1819.99,3,Memory Express,15,multiple reporting retailers
+2026-07-31,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5649.99,5764.99,2,Newegg Canada,15,multiple reporting retailers
+2026-07-31,gpu,rx-9070-16gb,Radeon RX 9070 16GB,869.99,929.99,3,Newegg Canada,7,multiple reporting retailers
+2026-07-31,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,1029.99,3,Newegg Canada,28,multiple reporting retailers
+2026-08-01,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,489.99,499.99,3,Newegg Canada,13,multiple reporting retailers
+2026-08-01,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,829.99,849.99,3,Best Buy Canada,5,multiple reporting retailers
+2026-08-01,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,899.99,919.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-01,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1319.98,1369.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-01,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,1819.99,3,Best Buy Canada; Newegg Canada,47,multiple reporting retailers
+2026-08-01,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5649.99,5929.99,2,Newegg Canada,14,multiple reporting retailers
+2026-08-01,gpu,rx-9070-16gb,Radeon RX 9070 16GB,849.99,899.99,3,Best Buy Canada,5,multiple reporting retailers
+2026-08-01,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,979.99,3,Best Buy Canada; Newegg Canada,35,multiple reporting retailers
+2026-08-02,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,489.99,509.99,4,Newegg Canada,12,multiple reporting retailers
+2026-08-02,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,829.99,849.99,4,Best Buy Canada,4,multiple reporting retailers
+2026-08-02,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,899.99,999.99,4,Best Buy Canada,13,multiple reporting retailers
+2026-08-02,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1319.98,1489.99,4,Best Buy Canada,15,multiple reporting retailers
+2026-08-02,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,1819.99,3,Best Buy Canada; Newegg Canada,47,multiple reporting retailers
+2026-08-02,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6209.99,6499.99,3,Memory Express,9,multiple reporting retailers
+2026-08-02,gpu,rx-9070-16gb,Radeon RX 9070 16GB,849.99,899.99,3,Best Buy Canada,5,multiple reporting retailers
+2026-08-02,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,979.99,3,Best Buy Canada; Newegg Canada,36,multiple reporting retailers
+2026-08-03,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,489.99,499.99,3,Newegg Canada,15,multiple reporting retailers
+2026-08-03,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,829.99,849.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-03,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,915.99,935.99,3,Newegg Canada,17,multiple reporting retailers
+2026-08-03,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1319.98,1369.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-08-03,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,1899.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-03,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6209.99,6499.99,3,Memory Express,9,multiple reporting retailers
+2026-08-03,gpu,rx-9070-16gb,Radeon RX 9070 16GB,849.99,849.99,3,Best Buy Canada; Newegg Canada,12,multiple reporting retailers
+2026-08-03,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,969.99,979.99,3,Newegg Canada,29,multiple reporting retailers
+2026-08-04,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,499.99,499.99,3,Best Buy Canada; Newegg Canada,22,multiple reporting retailers
+2026-08-04,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,829.99,849.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-04,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,915.99,935.99,3,Newegg Canada,15,multiple reporting retailers
+2026-08-04,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1319.98,1369.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-04,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,1899.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-08-04,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5969.99,6089.99,2,Newegg Canada,14,multiple reporting retailers
+2026-08-04,gpu,rx-9070-16gb,Radeon RX 9070 16GB,849.99,849.99,3,Best Buy Canada; Newegg Canada,12,multiple reporting retailers
+2026-08-04,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,969.99,979.99,3,Newegg Canada,28,multiple reporting retailers
+2026-08-05,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,499.99,499.99,3,Best Buy Canada; Newegg Canada,22,multiple reporting retailers
+2026-08-05,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,839.99,849.99,3,Newegg Canada,27,multiple reporting retailers
+2026-08-05,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,979.99,1019.99,3,Best Buy Canada,9,multiple reporting retailers
+2026-08-05,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1319.98,1399.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-08-05,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,1899.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-08-05,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6209.99,6299.99,3,Memory Express,9,multiple reporting retailers
+2026-08-05,gpu,rx-9070-16gb,Radeon RX 9070 16GB,849.99,849.99,3,Best Buy Canada; Newegg Canada,13,multiple reporting retailers
+2026-08-05,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,969.99,979.99,3,Newegg Canada,29,multiple reporting retailers
+2026-08-06,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,499.99,524.99,3,Best Buy Canada,10,multiple reporting retailers
+2026-08-06,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,849.99,3,Memory Express; Newegg Canada,32,multiple reporting retailers
+2026-08-06,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,979.99,1079.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-06,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1319.98,1469.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-08-06,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,1999.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-06,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6119.99,6209.99,3,Newegg Canada,15,multiple reporting retailers
+2026-08-06,gpu,rx-9070-16gb,Radeon RX 9070 16GB,849.99,929.98,3,Best Buy Canada,5,multiple reporting retailers
+2026-08-06,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,1029.99,3,Best Buy Canada,7,multiple reporting retailers
+2026-08-07,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-07,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,849.99,3,Memory Express; Newegg Canada,32,multiple reporting retailers
+2026-08-07,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1059.99,1079.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-08-07,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1329.99,1469.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-07,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,1999.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-07,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6119.99,6209.99,3,Newegg Canada,15,multiple reporting retailers
+2026-08-07,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.99,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-07,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,979.99,999.99,3,Best Buy Canada,7,multiple reporting retailers
+2026-08-08,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.98,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-08,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,869.99,3,Memory Express,9,multiple reporting retailers
+2026-08-08,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1049.98,1079.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-08-08,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1319.98,1469.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-08,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,2229.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-08,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6119.99,6209.99,3,Newegg Canada,15,multiple reporting retailers
+2026-08-08,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-08,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,989.99,999.99,3,Best Buy Canada,7,multiple reporting retailers
+2026-08-09,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.98,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-09,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,869.99,3,Memory Express,9,multiple reporting retailers
+2026-08-09,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1049.98,1079.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-08-09,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1469.99,1479.99,3,Newegg Canada,21,multiple reporting retailers
+2026-08-09,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,2229.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-09,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6119.99,6209.99,3,Newegg Canada,15,multiple reporting retailers
+2026-08-09,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,6,multiple reporting retailers
+2026-08-09,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,989.99,999.99,3,Best Buy Canada,7,multiple reporting retailers
+2026-08-10,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.98,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-10,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,859.99,3,Memory Express,9,multiple reporting retailers
+2026-08-10,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,899.99,999.98,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-10,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1449.98,1479.99,3,Newegg Canada,21,multiple reporting retailers
+2026-08-10,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,1849.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-10,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6259.99,6499.99,3,Memory Express,8,multiple reporting retailers
+2026-08-10,gpu,rx-9070-16gb,Radeon RX 9070 16GB,879.99,899.98,3,Newegg Canada,6,multiple reporting retailers
+2026-08-10,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,989.99,999.99,3,Best Buy Canada,7,multiple reporting retailers
+2026-08-11,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-11,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,869.99,3,Memory Express,9,multiple reporting retailers
+2026-08-11,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1049.99,1079.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-08-11,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1469.99,1479.99,3,Newegg Canada,21,multiple reporting retailers
+2026-08-11,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,2229.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-11,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6259.99,6499.99,3,Memory Express,8,multiple reporting retailers
+2026-08-11,gpu,rx-9070-16gb,Radeon RX 9070 16GB,879.99,899.98,3,Newegg Canada,4,multiple reporting retailers
+2026-08-11,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,989.99,999.99,3,Best Buy Canada,7,multiple reporting retailers
+2026-08-12,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,10,multiple reporting retailers
+2026-08-12,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,9,multiple reporting retailers
+2026-08-12,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1079.99,3,Best Buy Canada; Memory Express,26,multiple reporting retailers
+2026-08-12,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.98,1479.99,3,Newegg Canada,22,multiple reporting retailers
+2026-08-12,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-08-12,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6209.99,6499.99,3,Memory Express,9,multiple reporting retailers
+2026-08-12,gpu,rx-9070-16gb,Radeon RX 9070 16GB,879.99,899.98,3,Newegg Canada,4,multiple reporting retailers
+2026-08-12,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,949.99,989.99,3,Newegg Canada,24,multiple reporting retailers
+2026-08-13,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,10,multiple reporting retailers
+2026-08-13,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,849.99,3,Best Buy Canada; Memory Express,13,multiple reporting retailers
+2026-08-13,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1079.99,3,Best Buy Canada; Memory Express,27,multiple reporting retailers
+2026-08-13,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.98,1479.99,3,Newegg Canada,21,multiple reporting retailers
+2026-08-13,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-08-13,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6209.99,6499.99,3,Memory Express,9,multiple reporting retailers
+2026-08-13,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,6,multiple reporting retailers
+2026-08-13,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,949.99,989.99,3,Newegg Canada,21,multiple reporting retailers
+2026-08-14,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,644.98,3,Memory Express,11,multiple reporting retailers
+2026-08-14,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,8,multiple reporting retailers
+2026-08-14,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,949.95,1079.99,3,Best Buy Canada,19,multiple reporting retailers
+2026-08-14,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.98,1479.99,3,Newegg Canada,21,multiple reporting retailers
+2026-08-14,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,18,multiple reporting retailers
+2026-08-14,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6209.99,6499.99,3,Memory Express,9,multiple reporting retailers
+2026-08-14,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,949.99,3,Memory Express,4,multiple reporting retailers
+2026-08-14,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,989.99,999.99,3,Best Buy Canada,8,multiple reporting retailers
+2026-08-15,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,620.98,3,Memory Express,11,multiple reporting retailers
+2026-08-15,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,8,multiple reporting retailers
+2026-08-15,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1079.99,3,Best Buy Canada,18,multiple reporting retailers
+2026-08-15,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,17,multiple reporting retailers
+2026-08-15,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,1819.99,2229.99,3,Best Buy Canada,19,multiple reporting retailers
+2026-08-15,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6169.99,6499.99,3,Memory Express,10,multiple reporting retailers
+2026-08-15,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,949.99,3,Memory Express,4,multiple reporting retailers
+2026-08-15,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,989.99,999.99,3,Best Buy Canada,8,multiple reporting retailers
+2026-08-16,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,620.98,3,Memory Express,11,multiple reporting retailers
+2026-08-16,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,8,multiple reporting retailers
+2026-08-16,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1079.99,3,Best Buy Canada,18,multiple reporting retailers
+2026-08-16,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,17,multiple reporting retailers
+2026-08-16,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,18,multiple reporting retailers
+2026-08-16,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6259.99,6499.99,3,Memory Express,8,multiple reporting retailers
+2026-08-16,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,949.99,3,Memory Express,4,multiple reporting retailers
+2026-08-16,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,999.99,3,Best Buy Canada; Newegg Canada,28,multiple reporting retailers
+2026-08-17,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,620.98,3,Memory Express,11,multiple reporting retailers
+2026-08-17,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,8,multiple reporting retailers
+2026-08-17,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1079.99,3,Best Buy Canada,18,multiple reporting retailers
+2026-08-17,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1439.99,1479.99,3,Newegg Canada,20,multiple reporting retailers
+2026-08-17,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,18,multiple reporting retailers
+2026-08-17,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6259.99,6379.99,2,Memory Express,8,multiple reporting retailers
+2026-08-17,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,949.99,3,Memory Express,3,multiple reporting retailers
+2026-08-17,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,999.99,3,Best Buy Canada; Newegg Canada,26,multiple reporting retailers
+2026-08-18,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,613.98,3,Memory Express,11,multiple reporting retailers
+2026-08-18,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,8,multiple reporting retailers
+2026-08-18,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1079.99,3,Best Buy Canada,19,multiple reporting retailers
+2026-08-18,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,17,multiple reporting retailers
+2026-08-18,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,19,multiple reporting retailers
+2026-08-18,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6259.99,6379.99,2,Memory Express,5,multiple reporting retailers
+2026-08-18,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,939.99,3,Memory Express; Newegg Canada,7,multiple reporting retailers
+2026-08-18,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,999.99,3,Best Buy Canada; Newegg Canada,26,multiple reporting retailers
+2026-08-19,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-19,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,849.99,3,Best Buy Canada; Memory Express,12,multiple reporting retailers
+2026-08-19,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1079.99,3,Best Buy Canada,19,multiple reporting retailers
+2026-08-19,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,17,multiple reporting retailers
+2026-08-19,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,19,multiple reporting retailers
+2026-08-19,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5999.99,6499.99,3,Newegg Canada,14,multiple reporting retailers
+2026-08-19,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,939.99,3,Memory Express; Newegg Canada,7,multiple reporting retailers
+2026-08-19,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,999.99,3,Best Buy Canada; Newegg Canada,26,multiple reporting retailers
+2026-08-20,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-20,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,7,multiple reporting retailers
+2026-08-20,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1079.99,3,Best Buy Canada,18,multiple reporting retailers
+2026-08-20,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,17,multiple reporting retailers
+2026-08-20,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,21,multiple reporting retailers
+2026-08-20,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6499.99,6599.99,3,Best Buy Canada,1,multiple reporting retailers
+2026-08-20,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,939.99,3,Memory Express; Newegg Canada,7,multiple reporting retailers
+2026-08-20,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,999.99,3,Best Buy Canada; Newegg Canada,26,multiple reporting retailers
+2026-08-21,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-21,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,7,multiple reporting retailers
+2026-08-21,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,899.99,1079.99,3,Best Buy Canada,21,multiple reporting retailers
+2026-08-21,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-21,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-08-21,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6599.99,6684.99,2,Memory Express,4,multiple reporting retailers
+2026-08-21,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-21,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,999.99,3,Best Buy Canada; Newegg Canada,27,multiple reporting retailers
+2026-08-22,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-08-22,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,7,multiple reporting retailers
+2026-08-22,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,899.99,1079.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-08-22,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-22,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-08-22,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5711.99,6169.99,3,Newegg Canada,12,multiple reporting retailers
+2026-08-22,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-22,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,999.99,3,Best Buy Canada; Newegg Canada,24,multiple reporting retailers
+2026-08-23,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-08-23,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,7,multiple reporting retailers
+2026-08-23,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1079.99,3,Best Buy Canada,19,multiple reporting retailers
+2026-08-23,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-23,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-08-23,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,5711.99,5985.99,2,Newegg Canada,12,multiple reporting retailers
+2026-08-23,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-23,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,1039.99,3,Newegg Canada,19,multiple reporting retailers
+2026-08-24,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-08-24,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,849.99,3,Best Buy Canada; Memory Express,12,multiple reporting retailers
+2026-08-24,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1079.99,3,Best Buy Canada,19,multiple reporting retailers
+2026-08-24,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,16,multiple reporting retailers
+2026-08-24,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-08-24,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6599.99,6599.99,2,Memory Express; Newegg Canada,15,multiple reporting retailers
+2026-08-24,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-24,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,1039.99,3,Newegg Canada,20,multiple reporting retailers
+2026-08-25,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-08-25,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,7,multiple reporting retailers
+2026-08-25,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1079.99,3,Best Buy Canada; Memory Express,31,multiple reporting retailers
+2026-08-25,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-08-25,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-08-25,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6599.99,6599.99,2,Memory Express; Newegg Canada,14,multiple reporting retailers
+2026-08-25,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-25,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.98,999.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-26,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-08-26,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,7,multiple reporting retailers
+2026-08-26,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1119.94,3,Best Buy Canada,17,multiple reporting retailers
+2026-08-26,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-26,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-08-26,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6599.99,6599.99,2,Memory Express; Newegg Canada,13,multiple reporting retailers
+2026-08-26,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-26,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.98,999.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-27,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-08-27,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,7,multiple reporting retailers
+2026-08-27,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1119.94,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-27,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-27,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,21,multiple reporting retailers
+2026-08-27,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6499.99,6549.99,2,Memory Express,7,multiple reporting retailers
+2026-08-27,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-27,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.98,999.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-28,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-28,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,7,multiple reporting retailers
+2026-08-28,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1034.98,1119.94,3,Best Buy Canada,19,multiple reporting retailers
+2026-08-28,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-28,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,21,multiple reporting retailers
+2026-08-28,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6499.99,6549.99,2,Memory Express,7,multiple reporting retailers
+2026-08-28,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-28,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,1039.99,3,Newegg Canada,20,multiple reporting retailers
+2026-08-29,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-29,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,949.99,3,Memory Express,7,multiple reporting retailers
+2026-08-29,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1049.98,1119.94,3,Best Buy Canada,17,multiple reporting retailers
+2026-08-29,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-29,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,21,multiple reporting retailers
+2026-08-29,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6719.99,6719.99,2,Memory Express; Newegg Canada,10,multiple reporting retailers
+2026-08-29,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-08-29,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,949.99,999.98,3,Newegg Canada,20,multiple reporting retailers
+2026-08-30,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-30,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1072.99,3,Memory Express,7,multiple reporting retailers
+2026-08-30,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1119.94,3,Best Buy Canada,18,multiple reporting retailers
+2026-08-30,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-30,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,21,multiple reporting retailers
+2026-08-30,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6719.99,6719.99,2,Memory Express; Newegg Canada,10,multiple reporting retailers
+2026-08-30,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-08-30,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,892.99,999.98,3,Newegg Canada,19,multiple reporting retailers
+2026-08-31,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,11,multiple reporting retailers
+2026-08-31,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1072.99,3,Memory Express,6,multiple reporting retailers
+2026-08-31,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1119.94,3,Best Buy Canada,19,multiple reporting retailers
+2026-08-31,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-08-31,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,22,multiple reporting retailers
+2026-08-31,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6719.99,6719.99,2,Memory Express; Newegg Canada,10,multiple reporting retailers
+2026-08-31,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-08-31,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.98,999.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-09-01,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-09-01,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1072.99,3,Memory Express,6,multiple reporting retailers
+2026-09-01,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1049.98,1119.94,3,Best Buy Canada,17,multiple reporting retailers
+2026-09-01,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-09-01,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,22,multiple reporting retailers
+2026-09-01,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6239.99,6719.99,3,Best Buy Canada,1,multiple reporting retailers
+2026-09-01,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-09-01,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.98,999.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-09-02,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-09-02,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1072.99,3,Memory Express,6,multiple reporting retailers
+2026-09-02,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1049.98,1119.94,3,Best Buy Canada,16,multiple reporting retailers
+2026-09-02,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-09-02,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,22,multiple reporting retailers
+2026-09-02,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6239.99,6719.99,3,Best Buy Canada,1,multiple reporting retailers
+2026-09-02,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-09-02,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,926.99,999.98,3,Newegg Canada,20,multiple reporting retailers
+2026-09-03,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-09-03,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1072.99,3,Memory Express,6,multiple reporting retailers
+2026-09-03,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1119.94,1124.99,3,Newegg Canada,13,multiple reporting retailers
+2026-09-03,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-09-03,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,20,multiple reporting retailers
+2026-09-03,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6719.99,6825.44,2,Memory Express,2,multiple reporting retailers
+2026-09-03,gpu,rx-9070-16gb,Radeon RX 9070 16GB,899.98,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-09-03,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.98,999.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-09-04,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-09-04,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1072.99,3,Memory Express,6,multiple reporting retailers
+2026-09-04,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1119.94,3,Best Buy Canada,17,multiple reporting retailers
+2026-09-04,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-09-04,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,19,multiple reporting retailers
+2026-09-04,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6599.99,6769.99,3,Newegg Canada,7,multiple reporting retailers
+2026-09-04,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-09-04,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,1039.99,3,Newegg Canada,19,multiple reporting retailers
+2026-09-05,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-09-05,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1072.99,3,Memory Express,6,multiple reporting retailers
+2026-09-05,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1119.94,3,Best Buy Canada,17,multiple reporting retailers
+2026-09-05,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-09-05,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-09-05,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6930.90,7354.34,2,Newegg Canada,5,multiple reporting retailers
+2026-09-05,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-09-05,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.98,999.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-09-06,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,524.99,3,Best Buy Canada,12,multiple reporting retailers
+2026-09-06,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1072.99,3,Memory Express,6,multiple reporting retailers
+2026-09-06,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1034.98,1119.94,3,Best Buy Canada,16,multiple reporting retailers
+2026-09-06,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-09-06,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-09-06,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,6769.99,6850.44,2,Memory Express,2,multiple reporting retailers
+2026-09-06,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-09-06,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.98,999.99,3,Best Buy Canada,4,multiple reporting retailers
+2026-09-07,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,519.99,522.49,2,Best Buy Canada,12,multiple reporting retailers
+2026-09-07,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,6,multiple reporting retailers
+2026-09-07,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1024.98,1119.94,3,Best Buy Canada,16,multiple reporting retailers
+2026-09-07,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1519.99,2,Best Buy Canada,13,multiple reporting retailers
+2026-09-07,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2164.99,2,Best Buy Canada,15,multiple reporting retailers
+2026-09-07,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,7777.77,7777.77,1,Memory Express,1,single reporting retailer
+2026-09-07,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,934.99,2,Best Buy Canada,3,multiple reporting retailers
+2026-09-07,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.98,1019.99,2,Best Buy Canada,4,multiple reporting retailers
+2026-09-08,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,639.99,3,Memory Express,11,multiple reporting retailers
+2026-09-08,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1072.99,3,Memory Express,6,multiple reporting retailers
+2026-09-08,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1124.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-09-08,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-09-08,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,3,Best Buy Canada; Memory Express; Newegg Canada,58,multiple reporting retailers
+2026-09-08,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,7692.90,7735.34,2,Newegg Canada,2,multiple reporting retailers
+2026-09-08,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-09-08,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,1039.99,3,Newegg Canada,18,multiple reporting retailers
+2026-09-09,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,639.99,3,Memory Express,11,multiple reporting retailers
+2026-09-09,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1119.99,3,Memory Express,6,multiple reporting retailers
+2026-09-09,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1049.98,1124.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-09-09,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1479.99,1559.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-09-09,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2099.99,2229.99,3,Best Buy Canada,15,multiple reporting retailers
+2026-09-09,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,7692.90,7735.34,2,Newegg Canada,2,multiple reporting retailers
+2026-09-09,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-09-09,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,1039.99,3,Newegg Canada,15,multiple reporting retailers
+2026-09-10,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,639.99,3,Memory Express,11,multiple reporting retailers
+2026-09-10,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,1072.99,3,Memory Express,6,multiple reporting retailers
+2026-09-10,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1124.99,3,Best Buy Canada,14,multiple reporting retailers
+2026-09-10,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1544.98,1559.99,3,Best Buy Canada,13,multiple reporting retailers
+2026-09-10,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,3,Best Buy Canada; Memory Express; Newegg Canada,60,multiple reporting retailers
+2026-09-10,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,7692.90,7735.34,2,Newegg Canada,2,multiple reporting retailers
+2026-09-10,gpu,rx-9070-16gb,Radeon RX 9070 16GB,929.99,939.99,3,Best Buy Canada,3,multiple reporting retailers
+2026-09-10,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,999.99,1039.99,3,Newegg Canada,18,multiple reporting retailers
+2026-09-11,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,584.99,2,Memory Express,11,multiple reporting retailers
+2026-09-11,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-11,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1102.49,2,Best Buy Canada,14,multiple reporting retailers
+2026-09-11,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1559.99,1624.99,2,Memory Express,19,multiple reporting retailers
+2026-09-11,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,34,multiple reporting retailers
+2026-09-11,gpu,rtx-5090-32gb,GeForce RTX 5090 32GB,7777.77,7777.77,1,Memory Express,1,single reporting retailer
+2026-09-11,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-11,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1119.99,2,Memory Express,2,multiple reporting retailers
+2026-09-12,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,582.49,2,Memory Express,11,multiple reporting retailers
+2026-09-12,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-12,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1059.98,1092.49,2,Best Buy Canada,13,multiple reporting retailers
+2026-09-12,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1544.98,1552.49,2,Best Buy Canada,14,multiple reporting retailers
+2026-09-12,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,35,multiple reporting retailers
+2026-09-12,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-12,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1069.99,2,Memory Express,3,multiple reporting retailers
+2026-09-13,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,582.49,2,Memory Express,11,multiple reporting retailers
+2026-09-13,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-13,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1102.49,2,Best Buy Canada,12,multiple reporting retailers
+2026-09-13,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1559.99,1624.99,2,Memory Express,19,multiple reporting retailers
+2026-09-13,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,35,multiple reporting retailers
+2026-09-13,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-13,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1119.99,2,Memory Express,3,multiple reporting retailers
+2026-09-14,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,582.49,2,Memory Express,11,multiple reporting retailers
+2026-09-14,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-14,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1102.49,2,Best Buy Canada,12,multiple reporting retailers
+2026-09-14,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1559.99,1624.99,2,Memory Express,19,multiple reporting retailers
+2026-09-14,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,35,multiple reporting retailers
+2026-09-14,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-14,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1119.99,2,Memory Express,3,multiple reporting retailers
+2026-09-15,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,582.49,2,Memory Express,11,multiple reporting retailers
+2026-09-15,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-15,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1102.49,2,Best Buy Canada,15,multiple reporting retailers
+2026-09-15,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1559.99,1624.99,2,Memory Express,19,multiple reporting retailers
+2026-09-15,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,40,multiple reporting retailers
+2026-09-15,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-15,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1094.99,2,Memory Express,3,multiple reporting retailers
+2026-09-16,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,584.99,2,Memory Express,11,multiple reporting retailers
+2026-09-16,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-16,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1102.49,2,Best Buy Canada,13,multiple reporting retailers
+2026-09-16,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1609.99,1629.99,2,Memory Express,18,multiple reporting retailers
+2026-09-16,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,40,multiple reporting retailers
+2026-09-16,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-16,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1094.99,2,Memory Express,3,multiple reporting retailers
+2026-09-17,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,582.49,2,Memory Express,11,multiple reporting retailers
+2026-09-17,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-17,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1049.98,1087.49,2,Best Buy Canada,15,multiple reporting retailers
+2026-09-17,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1569.98,1589.99,2,Best Buy Canada,14,multiple reporting retailers
+2026-09-17,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,40,multiple reporting retailers
+2026-09-17,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-17,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1119.99,2,Memory Express,4,multiple reporting retailers
+2026-09-18,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,582.49,2,Memory Express,11,multiple reporting retailers
+2026-09-18,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-18,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1049.98,1087.49,2,Best Buy Canada,14,multiple reporting retailers
+2026-09-18,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1559.99,1624.99,2,Memory Express,18,multiple reporting retailers
+2026-09-18,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,40,multiple reporting retailers
+2026-09-18,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-18,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1119.99,2,Memory Express,5,multiple reporting retailers
+2026-09-19,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,592.49,2,Memory Express,11,multiple reporting retailers
+2026-09-19,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-19,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1102.49,2,Best Buy Canada,14,multiple reporting retailers
+2026-09-19,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1609.99,1649.99,2,Memory Express,18,multiple reporting retailers
+2026-09-19,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,41,multiple reporting retailers
+2026-09-19,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-19,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1119.99,2,Memory Express,5,multiple reporting retailers
+2026-09-20,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,592.49,2,Memory Express,11,multiple reporting retailers
+2026-09-20,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-20,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1079.99,1102.49,2,Best Buy Canada,14,multiple reporting retailers
+2026-09-20,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1609.99,1649.99,2,Memory Express,18,multiple reporting retailers
+2026-09-20,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,41,multiple reporting retailers
+2026-09-20,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-20,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1119.99,2,Memory Express,5,multiple reporting retailers
+2026-09-21,gpu,rtx-5060-8gb,GeForce RTX 5060 8GB,524.99,592.49,2,Memory Express,11,multiple reporting retailers
+2026-09-21,gpu,rtx-5060-ti-16gb,GeForce RTX 5060 Ti 16GB,849.99,984.99,2,Memory Express,7,multiple reporting retailers
+2026-09-21,gpu,rtx-5070-12gb,GeForce RTX 5070 12GB,1049.98,1087.49,2,Best Buy Canada,15,multiple reporting retailers
+2026-09-21,gpu,rtx-5070-ti-16gb,GeForce RTX 5070 Ti 16GB,1569.98,1589.99,2,Best Buy Canada,15,multiple reporting retailers
+2026-09-21,gpu,rtx-5080-16gb,GeForce RTX 5080 16GB,2229.99,2229.99,2,Best Buy Canada; Memory Express,40,multiple reporting retailers
+2026-09-21,gpu,rx-9070-16gb,Radeon RX 9070 16GB,939.99,969.99,2,Memory Express,5,multiple reporting retailers
+2026-09-21,gpu,rx-9070-xt-16gb,Radeon RX 9070 XT 16GB,1039.99,1119.99,2,Memory Express,5,multiple reporting retailers

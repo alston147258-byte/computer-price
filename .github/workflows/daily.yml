@@ -1,0 +1,38 @@
+name: 每日采集
+# 每天温哥华时间 19:00 左右（GitHub 定时任务可能晚几分钟到半小时）
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TZ: America/Vancouver
+      PYTHONUTF8: '1'
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install pillow
+      - name: 采集 + 发布网站
+        run: python scraper/fetch_prices.py
+      - name: 保存数据到仓库
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data scraper
+          git diff --cached --quiet || git commit -m "每日采集 $(date +%F)"
+          git pull --rebase -X ours || true
+          git push

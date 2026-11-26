@@ -1,0 +1,9 @@
+# 生成物 / 本机专用
+site/
+backups/
+data/prices.js
+data/*.log
+data/.run.lock
+__pycache__/
+*.pyc
+.claude/

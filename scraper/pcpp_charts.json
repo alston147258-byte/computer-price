@@ -1,0 +1,2494 @@
+{
+  "_说明": "PCPartPicker 价格趋势图。url 来自互联网档案馆里趋势页快照中的 <img>；top = 图上最顶端那条横向网格线的数值（底线为 0）。同一大盘的多张图，日期新的覆盖旧的。launch = 正式开卖日，之前的预售挂牌价不算。",
+  "launch": {
+    "5090": "2025-01-30",
+    "5080": "2025-01-30",
+    "5070ti": "2025-02-20",
+    "5070": "2025-03-05",
+    "9070xt": "2025-03-06",
+    "5060ti": "2025-04-16"
+  },
+  "meta": {
+    "_说明": "本地还没有这个大盘时，用这里的信息新建（美国 / 加拿大的内存、固态、CPU）。",
+    "ddr5": {
+      "group": "内存",
+      "name": "DDR5 内存",
+      "code": "DDR5",
+      "spec": "DDR5-6000 2×16GB 套条",
+      "compare": "ddr5"
+    },
+    "ddr4": {
+      "group": "内存",
+      "name": "DDR4 内存",
+      "code": "DDR4",
+      "spec": "DDR4-3200 2×16GB 套条",
+      "compare": "ddr4"
+    },
+    "ssd2t": {
+      "group": "硬盘",
+      "name": "2TB 固态",
+      "code": "SSD-2T",
+      "spec": "M.2 NVMe 2TB（各代 PCIe 混合）",
+      "compare": "ssd2t"
+    },
+    "r5z5": {
+      "group": "处理器",
+      "name": "锐龙 5（Zen 5）",
+      "code": "R5-Z5",
+      "spec": "AMD Ryzen 5 9000 系列平均价",
+      "compare": "r5z5"
+    },
+    "r7z5": {
+      "group": "处理器",
+      "name": "锐龙 7（Zen 5）",
+      "code": "R7-Z5",
+      "spec": "AMD Ryzen 7 9000 系列平均价（含 9800X3D）",
+      "compare": "r7z5"
+    },
+    "r9z5": {
+      "group": "处理器",
+      "name": "锐龙 9（Zen 5）",
+      "code": "R9-Z5",
+      "spec": "AMD Ryzen 9 9000 系列平均价",
+      "compare": "r9z5"
+    },
+    "u5al": {
+      "group": "处理器",
+      "name": "酷睿 Ultra 5",
+      "code": "U5-200S",
+      "spec": "Intel Core Ultra 5 200S（Arrow Lake）平均价",
+      "compare": "u5al"
+    },
+    "u7al": {
+      "group": "处理器",
+      "name": "酷睿 Ultra 7",
+      "code": "U7-200S",
+      "spec": "Intel Core Ultra 7 200S（Arrow Lake）平均价",
+      "compare": "u7al"
+    },
+    "u9al": {
+      "group": "处理器",
+      "name": "酷睿 Ultra 9",
+      "code": "U9-200S",
+      "spec": "Intel Core Ultra 9 200S（Arrow Lake）平均价",
+      "compare": "u9al"
+    }
+  },
+  "charts": [
+    {
+      "region": "US",
+      "key": "ddr5",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.11.06.usd.ram.ddr5.6000.2x16384.2178279ee116ddc0d7fec00008d08fee.png"
+    },
+    {
+      "region": "US",
+      "key": "ddr4",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.11.06.usd.ram.ddr4.3200.2x16384.aa1ac31e5f6dcaf203807dc9fd731fed.png"
+    },
+    {
+      "region": "US",
+      "key": "ssd2t",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.18.usd.storage.ssdm2nvme.2000.4b47fda8333f11fc010c1eae8292739f.png"
+    },
+    {
+      "region": "US",
+      "key": "r5z5",
+      "top": 300,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.12.usd.cpu.zen_5.ryzen-5.am5.087c0af653155861cd77100d5e32954a.png"
+    },
+    {
+      "region": "US",
+      "key": "r7z5",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.12.usd.cpu.zen_5.ryzen-7.am5.abe487b9501f3d944496721056777ab2.png"
+    },
+    {
+      "region": "US",
+      "key": "r9z5",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.12.usd.cpu.zen_5.ryzen-9.am5.47105d76087a1d87c2fa570bab5648bd.png"
+    },
+    {
+      "region": "US",
+      "key": "u5al",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.12.usd.cpu.arrow_lake.core-ultra-5.lga1851.446d7d981fe75848b36b2590cac2c8a1.png"
+    },
+    {
+      "region": "US",
+      "key": "u7al",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.12.usd.cpu.arrow_lake.core-ultra-7.lga1851.1448ae45361bf168fa6b2e9161e82786.png"
+    },
+    {
+      "region": "US",
+      "key": "u9al",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.12.usd.cpu.arrow_lake.core-ultra-9.lga1851.9f50ccc6a7eab91b8e3d9cc4484903e6.png"
+    },
+    {
+      "region": "CA",
+      "key": "ddr5",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.10.cad.ram.ddr5.6000.2x16384.5eee5011e28f5b9e87d0cb9ddf9e5e3f.png"
+    },
+    {
+      "region": "CA",
+      "key": "ddr4",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.10.cad.ram.ddr4.3200.2x16384.62d8c06d1610124e233533e9337fc203.png"
+    },
+    {
+      "region": "CA",
+      "key": "ssd2t",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.08.07.cad.storage.ssdm2nvme.2000.5fe57dfbd9614988a0410dcb74fd5279.png"
+    },
+    {
+      "region": "CA",
+      "key": "r5z5",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.05.16.cad.cpu.zen_5.ryzen-5.am5.f162214c9fb3dea55ff7868e2ce5efea.png"
+    },
+    {
+      "region": "CA",
+      "key": "r7z5",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.05.16.cad.cpu.zen_5.ryzen-7.am5.60f68cea6f004550b08603d060817541.png"
+    },
+    {
+      "region": "CA",
+      "key": "r9z5",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.05.16.cad.cpu.zen_5.ryzen-9.am5.13b134c9b531143fd063f047507a7a60.png"
+    },
+    {
+      "region": "CA",
+      "key": "u5al",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.05.16.cad.cpu.arrow_lake.core-ultra-5.lga1851.64755155b3b03edc66a01a3ea5ec4e3c.png"
+    },
+    {
+      "region": "CA",
+      "key": "u7al",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.05.16.cad.cpu.arrow_lake.core-ultra-7.lga1851.f6cf2516363e5b3bcf18fc88ceb6c7b0.png"
+    },
+    {
+      "region": "CA",
+      "key": "u9al",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.05.16.cad.cpu.arrow_lake.core-ultra-9.lga1851.529c6958fb913f8f4a34b43d1115439c.png"
+    },
+    {
+      "region": "US",
+      "key": "5060ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-5060-ti.1707c5157456c182af3ff5e2da5d3d97.png"
+    },
+    {
+      "region": "US",
+      "key": "5070",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-5070.5a24b317e68159bf6fcfb746780614db.png"
+    },
+    {
+      "region": "US",
+      "key": "5070ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-5070-ti.784bc2a34f9f733fe5b97cfaa00dfcf3.png"
+    },
+    {
+      "region": "US",
+      "key": "5080",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-5080.bb3ba8f051be8e38c7b4b8cca7cf6adb.png"
+    },
+    {
+      "region": "US",
+      "key": "5090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-5090.53bb0dbc723fd0fd8263e9da5b06f9e9.png"
+    },
+    {
+      "region": "US",
+      "key": "9070xt",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-9070-xt.d46ef121870c433d2c3cdfb3d174b3e6.png"
+    },
+    {
+      "region": "US",
+      "key": "5060ti",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-5060-ti.ea8086f09eede78f962d44a8b6e80a57.png"
+    },
+    {
+      "region": "US",
+      "key": "5070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-5070.5596976d4e41ab9d818228b9f24867ea.png"
+    },
+    {
+      "region": "US",
+      "key": "5070ti",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-5070-ti.717ec69548c22645bc8e233bb9ce0061.png"
+    },
+    {
+      "region": "US",
+      "key": "5080",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-5080.65e84ebf494d2d2422a988930372aaf6.png"
+    },
+    {
+      "region": "US",
+      "key": "5090",
+      "top": 6000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-5090.cc7b3ae4b7ee76febbc7de5d22c656cd.png"
+    },
+    {
+      "region": "US",
+      "key": "9070xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.radeon-rx-9070-xt.84008e3911997400a7e4a259b07abbc9.png"
+    },
+    {
+      "region": "CA",
+      "key": "5060ti",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-5060-ti.7715b642b9f9c1dfe07e572520008c8e.png"
+    },
+    {
+      "region": "CA",
+      "key": "5070",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-5070.95b246f095740ea79cf3f7808c28872f.png"
+    },
+    {
+      "region": "CA",
+      "key": "5070ti",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-5070-ti.32b083c38dcfa2837d551824811416a4.png"
+    },
+    {
+      "region": "CA",
+      "key": "5080",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-5080.86ae8f4c8b550f0ae025cb9b80c7355b.png"
+    },
+    {
+      "region": "CA",
+      "key": "5090",
+      "top": 12000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-5090.fb2c0e104830213de695514cdb5cf212.png"
+    },
+    {
+      "region": "CA",
+      "key": "9070xt",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.radeon-rx-9070-xt.f137f8728c33a2feb8d6b601956cb6d7.png"
+    },
+    {
+      "region": "US",
+      "key": "a750",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.arc-a750.faea1c9aa461b5ca7cb4c685491a7e69.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a770",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.arc-a770.9fccdf2ac1af6a3a97625c442b59f1e6.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3050",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-3050-8gb.d9078cc3ccd40224b225b7114a1e9cc2.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3060",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-3060-12gb.9d1f942b7246be7c7f87786f41df62ab.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3060ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-3060-ti.683484d949641d29c0033dde16dd6334.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3070ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-3070-ti.6ff00802a92e76db2d962b4ca933a705.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-3070.8081e1721388cb743ae24fa62f91e535.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3080",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-3080-10gb.8741f8a1edc7390586411564f74b5533.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3080ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-3080-ti.f45d62b4b53619306c3b1b680628d014.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3090ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-3090-ti.f5581d7d19b5955a7f3e605cd045ba93.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-3090.ac4110bdf33b06daa1ec8c22e44e2a0d.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-4070-ti.9d3197423d2ac3a1b9cbb5122f9304d9.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-4070.346296bbf312e3c1b0ff870805a1f0cb.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-4080.f04cd6a16ef2b8c6255a87c10302f74b.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4090",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.geforce-rtx-4090.6f7ff0a50b70c123112bb9424c01d9ef.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6600xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.radeon-rx-6600-xt.3678617a180b3ff604ef4d4c8b29d358.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6600",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.radeon-rx-6600.9f745dd2bcae52a9470dc692bff9a77c.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.radeon-rx-6700-xt.68d8e87b02961de0cc9a7ed636cb6987.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6800xt",
+      "top": 10000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.radeon-rx-6800-xt.0417e9916fbb532b0b06db42a87f38d6.png"
+    },
+    {
+      "region": "US",
+      "key": "6800",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.radeon-rx-6800.ab9894c875c2b7e9635254dafe740068.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6900xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.radeon-rx-6900-xt.fe83cf6e2d2cfaa54c70225b601599b0.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7700xt",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.radeon-rx-7700-xt.4e01850da6dd65738fbea58737955565.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7800xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.radeon-rx-7800-xt.31dc568333a8e32b4dd715fe2b99622b.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xt",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.radeon-rx-7900-xt.b6438e5bed1f6619d78dd1b21aeae895.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xtx",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.01.08.gpu.chipset.radeon-rx-7900-xtx.e4287993ec2f0902dd5b518dd42e2e82.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "a750",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.arc-a750.5a1f5c4ead4a653e237c20030d11cb6e.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "a770",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.arc-a770.6edbe1006dc293ef842ca6480c68184f.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3050",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-3050-8gb.3ec8b20b906445d127ac0857fcc9558f.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3060",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-3060-12gb.a049bc65eb2d57e1cdc55e4d95cdfca5.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3060ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-3060-ti.7e0839ac3bbef52f2e3d6f6377de7edf.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3070ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-3070-ti.86ba5cbc4414aaf86a40ff43f8abf01f.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-3070.14371f19371fb9e3109c01c7ffad25fd.png"
+    },
+    {
+      "region": "CA",
+      "key": "3080",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-3080-10gb.dbf7801d11895905d801c80ba53256dd.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3080ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-3080-ti.10c863226c7fc161b3d4dff7d3b218b1.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3090ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-3090-ti.cd194502c07d49f215ce93db9ce4c125.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-3090.894a18d6a1330eac7591cf808eb6d8cd.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070s",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-4070-super.267e0209ad04e86c53b3e5edc9d8a134.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070tis",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-4070-ti-super.044373e163f33244240924d450111c36.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-4070-ti.23cacca42ad5b42c1549eaa42286b636.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-4070.35f11dfbfb0850bf48cc61e1005b10c2.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4080s",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-4080-super.7862ec7ed466cc032908c8b9ab7699ad.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4080",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-4080.7346a0b715bbc0643bf0e2f8695698c4.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.geforce-rtx-4090.9e48a8761aa09f75e218212a5b8e43a4.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6600xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-6600-xt.1f7b0ddddfc3ed578d237f4881f54bf4.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6600",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-6600.61bf24eb4e05e55895bf022570128246.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-6700-xt.0417a8f5da1d39dbe623b3c273cfc568.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6800xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-6800-xt.3cba0fa6c75c0e6a91c18a851a80a27e.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6800",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-6800.471317c386d30a0b3cc8dfe38f5f7795.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6900xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-6900-xt.aecd404903b12fbedf351d0dc93fff67.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-7700-xt.3367034499e9825d7f4e71758b8dea47.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7800xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-7800-xt.3c5162f4c60ea47d86b26977b48782b7.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900gre",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-7900-gre.bea8cce8365a1eaf8209a61b80e562e6.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900xt",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-7900-xt.146662f89642e1d32c7c58df84b3fdb1.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900xtx",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.05.21.gpu.chipset.radeon-rx-7900-xtx.80f50d4dfa53fa8e105f171270700478.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a750",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.arc-a750.9e38adf0e34805fde7db5b4e6f4518bc.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a770",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.arc-a770.c769088785dd2727a7b900b93bccc856.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3050",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-3050-8gb.a0e4b37216c0bc562c7a43d4ba2c31ed.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3060",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-3060-12gb.15d0fe27014a119419d14411db61aa64.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3060ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-3060-ti.e55740bc0084140e2ddd1519f846ce2c.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3070ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-3070-ti.c2a7f4cc9a2e8f9f4947c57835b55d25.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-3070.239029eb6028c31baedd0fc4bfc2bba2.png"
+    },
+    {
+      "region": "US",
+      "key": "3080",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-3080-10gb.9a3bf540a142f376c3d6d187b02ecf6a.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3080ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-3080-ti.e0fac56eee8684c391900d8ee614ff87.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3090ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-3090-ti.70c44be6cbbb6c3a165fa17f0d507add.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-3090.7be0cd135a49df0f4fef6e228167bd5e.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070s",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-4070-super.1aa431bf270f55b971cc0758fb3416c4.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070tis",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-4070-ti-super.267c73f2808550cb8e19a7154b61ced2.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-4070-ti.9c069b7d197822ead63bc4859e09a085.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-4070.03cdb75b3bdb914c10f7e9bbd7b2c67e.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080s",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-4080-super.548fdae2f7dad95fd3f7e37c068662e3.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-4080.3ea952306d78e13b7867980f5a05c3e2.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.geforce-rtx-4090.7fd22b12ea1602f6b0339da371f7b516.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6600xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-6600-xt.844fe88a668fdcd870fa67819f29546b.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6600",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-6600.2e47c23cdce8b1d3f0f989f0423d3a85.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-6700-xt.617dfce288a7dd99afe917ecd8c65c99.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6800xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-6800-xt.f17adcee04e32996c8fa967551ed29bd.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6800",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-6800.006d9220572095977da974637a454253.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6900xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-6900-xt.7e8dd060ce48c64f345d9aba4b7f8b15.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-7700-xt.57b3dcdc107edab6f53e0af9ae5f73c8.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7800xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-7800-xt.5cf2dde062939e5de823989c941969dc.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900gre",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-7900-gre.cd29515d64aae632362abc13b7b84591.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xt",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-7900-xt.77fc9c46e1a598506e6156d7f5cc51b7.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xtx",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.07.23.gpu.chipset.radeon-rx-7900-xtx.6bb56804e4a5bd1a663b8ea4d4154d00.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "a750",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.arc-a750.eb793f625bd391204bff01fcfaf70f82.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "a770",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.arc-a770.b21244055b8c78beef09c7f790828fa5.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3050",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-3050-8gb.d853f095986a583aa00fb9d3021e9ef0.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3060",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-3060-12gb.4022504c8aa311262a076aeee44544eb.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3060ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-3060-ti.a18187c4cc12fe2df74857e5c8b453a6.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3070ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-3070-ti.3207595c580234973e775c783a2b9169.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-3070.4cb90b7a2983b8e65d3d3dae538df06f.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3080",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-3080-10gb.fd7ce8454336b8b048cda6c4b9c01359.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3080ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-3080-ti.df12ffd506d53591900f8eb98697600d.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3090ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-3090-ti.18d134b62a9d03d5ec717518cf0f6585.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-3090.d2ce7a53b7f14f0c0899e87288efa492.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070s",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-4070-super.c3dcf056274205b5c43d048dbd515657.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070tis",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-4070-ti-super.c1d34447db6c45ee76233d1d492a6529.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-4070-ti.c8fbb19180ded4a43614a16768d7f14d.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-4070.8581d25658ca2e2624247a891add37a6.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4080s",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-4080-super.050a7566bf3ffc31c77e7eccd3b7fbe7.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4080",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-4080.0d5d2be8940c244fb0f14ba2d81f9383.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.geforce-rtx-4090.b40e670d7083a699aa4487d1fd10de6a.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6600xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-6600-xt.5553e1365a0db38ec0f971fc6c2c4e6f.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6600",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-6600.10cf83dda21f74a8fe1efd3a2b9df2ff.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-6700-xt.06aa3f2bd2a6e0953d8c7bb8116a213d.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6800xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-6800-xt.2477b8562fb88fbf4994a5af8f8e9867.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6800",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-6800.1332e2f81eb822636ac2ea6f07f9be33.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6900xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-6900-xt.09ff899daf3672a013750dd4d3d0dc2c.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-7700-xt.63a3b1ea86b805fadfd865eab41ca5e8.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7800xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-7800-xt.28391ceba2eb6d8e25c41ccdb3f0091e.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900gre",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-7900-gre.0c3355067d3aff871ca91a7ab9965590.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900xt",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-7900-xt.bc2b3bd3de2cf449166c277577ee9798.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900xtx",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.11.30.gpu.chipset.radeon-rx-7900-xtx.4f9b6a94954fb99c7ead60d39a8f3d32.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a750",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.arc-a750.83023a1e830fb83746ab582de6940cde.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a770",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.arc-a770.5583d950a082a9f29e4c3c74c73bee59.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3050",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-3050-8gb.ff97f49d86e1d646f46b2cccce7e1cc1.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3060",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-3060-12gb.334f1dca7c03c314a5aa2e8c786a6edf.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3060ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-3060-ti.5b43b67898f918cb23b3c0084fd95807.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3070ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-3070-ti.9bc1850072c135520a45d9dd69bde0ca.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-3070.c1ab63bdf79cee6ab8f492bfd7309f18.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3080",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-3080-10gb.1227f345e1515694aece461f9dd6a5ea.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3080ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-3080-ti.1aeecff1f2efbc4da6ae0500b1198c25.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3090ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-3090-ti.2c0fb42dd36864e84297fab57fcf1183.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-3090.3f5c4a07c29b6954fa87c2a40e2b1296.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070s",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-4070-super.4471369b17a39359ef2eb837a3df2e5e.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070tis",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-4070-ti-super.0b3edcda55a1bceab8bc336ba1fa8af8.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-4070-ti.0ecf9b2762ef6e127e9534b1e16f4695.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-4070.a3c86a3755d3f0f8db3e265df070eea3.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080s",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-4080-super.b1b5e7b95914cf8e1604f59ef053e687.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-4080.52e8d3c39dd542bfdfa2135ad7b41df6.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.geforce-rtx-4090.b5fff82a2877d1e64bb430544648094d.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6600xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-6600-xt.fd6136665a96efee881597be01d01a46.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6600",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-6600.6e82abb3beef6adeddfc70efe809ee7d.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-6700-xt.41c9ad25792b0c24fa44086cf2d20113.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6800xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-6800-xt.45ed6c5534014b9b1446c0e85f048224.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6800",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-6800.5b2486d739c2fe143ef526c994b72bba.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6900xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-6900-xt.88046daa4c2c7a34a6ebb69c3292c2ff.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-7700-xt.bee7da3c0be0164d7a7f4c43b240eed1.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7800xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-7800-xt.90622600d60d56fd074fb801a3d3d5f3.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900gre",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-7900-gre.451f0321fcbc0ea7e811c28df3d88f1e.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xt",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-7900-xt.bda6d95faa1bdea78fb256c4505a35eb.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xtx",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2024.12.15.gpu.chipset.radeon-rx-7900-xtx.e3e329f86dd5be4918872f92d474899b.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "a750",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.arc-a750.45a59eec488c2fa8df6c6d338a7075fe.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "a770",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.arc-a770.55cef97fdde62cd271fa175e40430418.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3050",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-3050-8gb.5d5dc25f756a186ff205f2aae7a13571.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3060",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-3060-12gb.321c4379e8de9c104f441e2965ed4920.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3060ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-3060-ti.a91a256e3da5975eb92d506890c24f2e.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3070ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-3070-ti.8ecaf77419c0bf256def7e484e7ea213.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-3070.f50d587ab5d14111a270fdce9a31d150.png"
+    },
+    {
+      "region": "CA",
+      "key": "3080",
+      "top": 125,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-3080-10gb.e861cef85f234196b3a34fa712cca329.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3080ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-3080-ti.b39252b90f6173c71309d532e681b8c0.png"
+    },
+    {
+      "region": "CA",
+      "key": "3090ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-3090-ti.a285855265056236f820fbf41ef3806e.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "3090",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-3090.b3d4d0e9b26483a75110fd71cba71a7b.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070s",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-4070-super.7429e6bc3699ee46a1d1371c10f2fdd2.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070tis",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-4070-ti-super.7fc202c8ea98d03051dfa2f3086dbaef.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-4070-ti.5d8609dc676224d86afc547afb15e723.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-4070.a63f513086797352334873348ad9dffa.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4080s",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-4080-super.2cbe16b7a2e13020af6b49f11cde2232.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4080",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-4080.6789403f3b07c7f9f4d7d747e9e918bb.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-4090.0726ff391c86f959ca153e6eda71d60c.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "5060ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-5060-ti.23adce43fab67cfa48c576185919f129.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "5070ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-5070-ti.6cbcd99e54185db7d81df3160d628347.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "5070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-5070.adfd43c6d5138090a6524a19fe44eca8.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "5080",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-5080.2a77ef3692398477603d125be2271eb4.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "5090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.geforce-rtx-5090.4937966d1791bf55a49a14cf536d4c32.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6600xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-6600-xt.ae8b23f8ac30304adb1c3428c041bbd7.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6600",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-6600.2719a39e4829034d364d3bdb1c214f0c.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-6700-xt.993905c469726f06a1b7723f9b7797a4.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6800xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-6800-xt.cc0cc488d71872774488cebae27e6e24.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6800",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-6800.07430a0c1b5e1052f355f3b704c87e7d.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "6900xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-6900-xt.8cf29bf071e8f11b27184ce90329675c.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-7700-xt.d234c8140f2c026d38e57a49004ad81e.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7800xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-7800-xt.49a2df31c6c7672e3392185a639d3900.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900gre",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-7900-gre.6532f0250a3ed5715d33b2969c18e762.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900xt",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-7900-xt.4a78d3f4e33cbf94b9b93d5245e4a371.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900xtx",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-7900-xtx.61bcc7b29fae0eed54acc5e73e196925.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "9070xt",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-9070-xt.a7db40db9c63a523ea8887be5eb53dd6.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "9070",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.05.29.gpu.chipset.radeon-rx-9070.968c44e943a6ade3c085b5b1653ce5cd.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a750",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.arc-a750.e932b9df1ff813aff01504de9d7b5a7d.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a770",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.arc-a770.407a0df6a651b3c0420c15ee1d30dad5.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3050",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-3050-8gb.5c5a2d892f6d34a08156e49382b6209b.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3060",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-3060-12gb.15ec278d770170588fd1c016744fbadf.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3060ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-3060-ti.f64142084b66a4782a9e31a9c1659e56.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3070ti",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-3070-ti.1afcb291edc0d1e771fe2a61f32753e9.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-3070.43011e4318c00f918a7ee81626c96105.png"
+    },
+    {
+      "region": "US",
+      "key": "3080",
+      "top": 125,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-3080-10gb.e1b01d7d22d5717d037362277b427129.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3080ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-3080-ti.53b95f21fc593674b7bad52f6a152fe8.png"
+    },
+    {
+      "region": "US",
+      "key": "3090ti",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-3090-ti.f348d137253af389da506c156f43880d.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "3090",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-3090.1f07904fe319cec2bb42bd394fc5c554.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070s",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-4070-super.e9fa48f9f26fcc0818024e2cdbe23cec.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070tis",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-4070-ti-super.fbb801279af816fcbae39008c3eb31c9.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070ti",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-4070-ti.b3869e64de0b9c0220ed1c020a099cac.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-4070.407054d93efea8bb61d995517a74fd6d.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080s",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-4080-super.92ecdddfa7d575d017c36e4ed2f1b560.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-4080.845e65df8d31379da288113cd6d4de83.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4090",
+      "top": 5000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.geforce-rtx-4090.ee8a03bd1a0bcd7f4229167140a49512.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6600xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-6600-xt.77a615915b3e4e423ab4eab529ff05c1.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6600",
+      "top": 500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-6600.b2b58df91345d4bbb4099e9faf34b3b5.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-6700-xt.907e47244054e96a56770ae3b2c7eb88.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6800xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-6800-xt.1346a3888dc5bcab5ed9e79e65264767.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6800",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-6800.72bfcac478903b84ddf9127ab22e67b6.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "6900xt",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-6900-xt.05c0178630f90d1a8a271d85d56d1317.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7700xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-7700-xt.1e0a261b1f11e8d9371d1558aa7fda28.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7800xt",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-7800-xt.7e1f79dcb39cafb9ead2383c9731a845.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900gre",
+      "top": 1000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-7900-gre.7d67e12f2403e1c926903d6837f153a9.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xt",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-7900-xt.7aa468212adbd5e04341aafeeceba675.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xtx",
+      "top": 2500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-7900-xtx.0b0cb4003738f0b57fb82f5163a37a6e.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "9070",
+      "top": 1250,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.07.05.gpu.chipset.radeon-rx-9070.394d6ee68cc814bc8c7004daa1394bd3.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "a750",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.arc-a750.4855f20ba4a89565a42589db830d3212.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "a770",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.arc-a770.fc36cffdb95cef11837e5ce9ed49ed79.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070s",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-4070-super.fefa7199d2acb85412cd19deec4a8959.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070tis",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-4070-ti-super.79429167d97997239c5af6156f4046fe.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070ti",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-4070-ti.809ea43af32a59ae1ebc7c2c29234064.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-4070.ecb53da46a1bee24e6786fb5d887bf7a.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4080s",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-4080-super.24cc10355c0953f9ed7275284b712282.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4080",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-4080.47a13f8e6954c65f7417962354a42e98.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4090",
+      "top": 6000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-4090.43addf43d124de6529691c45dd402a6d.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "5060ti",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-5060-ti.16e17d846843bd5b04940fa7c2baca86.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "5070ti",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-5070-ti.7a384fd6c7ae9984a9fbd161cdef6c13.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "5070",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-5070.a8c17e34a3688654cad8a3ae66b17639.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "5080",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-5080.c829fa8c7d1eac0bd48440a69c5ab21d.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "5090",
+      "top": 6000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.geforce-rtx-5090.7aa528ae2c01c12865449c7cc7f0dfd5.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7600xt",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.radeon-rx-7600-xt.f65d9a550bc6e9e0cc938557a0ae845b.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7700xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.radeon-rx-7700-xt.3f7c96770694a9b1a7edfc18c2a135d9.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7800xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.radeon-rx-7800-xt.85fc0d4a3a49ec3f35c5f8bd1f93d972.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900xt",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.radeon-rx-7900-xt.f892a0a1392971107f442c145b16537c.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900xtx",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.radeon-rx-7900-xtx.cbd0b0a44d57b8ee0a46decf99947219.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "9060xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.radeon-rx-9060-xt.7bf2754ac9f567b67a48a642826521d7.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "9070xt",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.radeon-rx-9070-xt.34acf62a448897747cb08bf72c0da3f3.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "9070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2025.11.13.cad.gpu.chipset.radeon-rx-9070.bb8c0317456c4f1158ae6c29f20cd166.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a750",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.arc-a750.95b8db3b8eb3f559e56053aa6929d4d8.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a770",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.arc-a770.451cb243de177d344b4c53f46cba0f43.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070s",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-4070-super.f638cfd9af3acdf0dc0d3ec4df204641.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070tis",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-4070-ti-super.edbaf182f12ef2c45732693205bc3a90.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070ti",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-4070-ti.ede16ba609824b98d4ba0387fba8b475.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-4070.6fc683e3ef93642a8f45947ee1233bbb.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080s",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-4080-super.7d40769368de0e0d961637eddf32f521.png"
+    },
+    {
+      "region": "US",
+      "key": "4080",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-4080.2b2f418cd5305e92794f37f5704adca2.png"
+    },
+    {
+      "region": "US",
+      "key": "4090",
+      "top": 6000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-4090.e99337c980e08432602add1f2086f00c.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "5060ti",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-5060-ti.2295876a8af3a70ca3bd1af64ecf94bd.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "5070ti",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-5070-ti.9b6e94a78f192ce2345de695e071735d.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "5070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-5070.b9b3e69ed90c59f47e530ed70a887f41.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "5080",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-5080.e0a5cb92ba19c27d6947620c8abda4ec.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "5090",
+      "top": 6000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.geforce-rtx-5090.608d05a3f516b7e586d6f9f150a548ab.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7600xt",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.radeon-rx-7600-xt.05ccbbddb24267e5587b35ac9ab21a1f.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7700xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.radeon-rx-7700-xt.2f9dc68c1570404181d5d5f9ae31ddc4.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7800xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.radeon-rx-7800-xt.229caa61db70e562ee67ec6c7ffd1fdf.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.radeon-rx-7900-xt.726b8577c53237aff763efd52938742d.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xtx",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.radeon-rx-7900-xtx.7b561279844eebafed8ee9f732836724.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "9060xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.radeon-rx-9060-xt.62c3f0cf138be8667f19a5183805e94a.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "9070xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.radeon-rx-9070-xt.a6bb71989ffd88e34a02b41172fd2dc3.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "9070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.03.23.usd.gpu.chipset.radeon-rx-9070.cca122a61a7996904f9b6d7aa7e30254.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "a750",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.arc-a750.c673be829e95be00ff9bbe01ddf3ed15.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "a770",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.arc-a770.611ab4743f1dcde24e95411f9bb7ccb7.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070s",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-4070-super.c9a1b791c2937580395df9106bccb430.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070tis",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-4070-ti-super.ef1e183cd7397e9d11fd79413ba51be6.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070ti",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-4070-ti.acc2fde3cabbd648b990b2e83c5b3e22.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-4070.4aacfc216830837fae7d4002c0122248.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4080s",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-4080-super.f0a3e567ff8fa5351a5bf93ea72a95f0.png"
+    },
+    {
+      "region": "CA",
+      "key": "4080",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-4080.052b04736735ff4d17d6e8b83dd1fa0b.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "4090",
+      "top": 6000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.geforce-rtx-4090.ead1b690efe434933e615389841a5af3.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7600xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.radeon-rx-7600-xt.08f371d29269c3d081e93b8d7cead306.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7700xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.radeon-rx-7700-xt.a92b277edc88130f207a310e8ebb58d7.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7800xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.radeon-rx-7800-xt.cf370a407147edd77ac8541b480ad7b5.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900xt",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.radeon-rx-7900-xt.c2fd4b7bbcad59cdbaf4323a2796ec4b.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "7900xtx",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.radeon-rx-7900-xtx.b713c5be91cbd1339c4ea203eb09caf5.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "9060xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.radeon-rx-9060-xt.635cdc357c65d3bb3b3a32a0cc22b951.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "9070",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.06.08.cad.gpu.chipset.radeon-rx-9070.df9df2f8d3c2aa16723692479f2b2ea6.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a750",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.arc-a750.2e1ff4cd1f68bebb2961c084c3eca895.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a770",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.arc-a770.55c22436744267feebc7038917cf8eb8.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070s",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-4070-super.1bd3b3a5dabccb5740db9d491c1f636b.png"
+    },
+    {
+      "region": "US",
+      "key": "4070tis",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-4070-ti-super.0e2342107b8ca63f9b657f63377e6e77.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070ti",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-4070-ti.0511cc36922774c552256b7356493d67.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-4070.01480f17d7f8c4ddc6a34eb77fc1299a.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080s",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-4080-super.9da7a6f865ce1c50194dccc87a68fa50.png"
+    },
+    {
+      "region": "US",
+      "key": "4080",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-4080.a100b757482d3e0c6d00447cd3c36a54.png"
+    },
+    {
+      "region": "US",
+      "key": "4090",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.geforce-rtx-4090.1eb967cc86444c588ac934626bda8786.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7600xt",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.radeon-rx-7600-xt.a3323f8d3bcaa1ce5384076f6f7fd3ed.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7700xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.radeon-rx-7700-xt.70a0e9520c0fddf3eb3d96e8e9e86743.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7800xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.radeon-rx-7800-xt.ee7421707b04b3ee3e31800da45e088f.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.radeon-rx-7900-xt.303d693bb8ca77ac153b94c1464f24d5.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xtx",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.radeon-rx-7900-xtx.7ba1ca01d3a298d19d33577370b61c8a.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "9060xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.radeon-rx-9060-xt.48b30b4d02919172bb5df3bc14d508e0.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "9070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.11.usd.gpu.chipset.radeon-rx-9070.c6303e94dbeb2dec38c4eb9290c81568.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a750",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.arc-a750.00846e3da63e89845bc61c80798afabe.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "a770",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.arc-a770.31cc8e9d0bded90cc1773c88597cc998.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070s",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-4070-super.ad8f2c8a527c83e6d61a6ea504798f70.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070tis",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-4070-ti-super.76e81edebeb50e35ba88dac5a4565d60.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070ti",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-4070-ti.2ba7494bb9593f7db5fe572f7b1bff42.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-4070.90314b4e28dafb443c67cfa848164da1.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080s",
+      "top": 1500,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-4080-super.a094cfbe39be4ca57f1686a8d6a42e33.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4080",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-4080.826a0e03a3284b6e4e2f169611f33944.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "4090",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-4090.6ec29f281bede47836d9ed904167540d.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "5060ti",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-5060-ti.ba81ef71a651bf408e165f8ef373725b.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "5070ti",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-5070-ti.2c4d9e23a67832b8c7fa3ecabf9adaf4.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "5070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-5070.4c2f0833cff9523eecd0b261c747e1d8.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "5080",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-5080.73b59b1a41e662be1f2fdfa98fb408ab.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "5090",
+      "top": 6000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.geforce-rtx-5090.e3e53285444cbc89a63c670a08978995.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7600xt",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.radeon-rx-7600-xt.fc9b8b708aeb50a6f7150fc78f153003.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7700xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.radeon-rx-7700-xt.b4001ae4faace80e1d221d03cd674bed.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7800xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.radeon-rx-7800-xt.79290b4de1a05477f30869ee825b3821.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.radeon-rx-7900-xt.c03a5907cd2da6231b5cc9418dffe24f.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "7900xtx",
+      "top": 3000,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.radeon-rx-7900-xtx.18588e03133f5f9f13546fd48ebc9cdf.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "9060xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.radeon-rx-9060-xt.a517cc46c6973e5d8f8e12eb20384b73.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "9070xt",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.radeon-rx-9070-xt.d908ad64b218851c6382802308e3591a.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "9070",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.gpu.chipset.radeon-rx-9070.afb08c63142f153faad9f761c9b9b3a7.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "ddr4",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.25.usd.ram.ddr4.3200.2x16384.6a6ad5da341dfe5b65ad287fd509a1ca.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "ddr5",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.25.usd.ram.ddr5.6000.2x16384.e1b4e4f1218e7bb4c72eabcf546fec91.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "u5al",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.cpu.arrow_lake.core-ultra-5.lga1851.dbd422ee549170f23699084655c4878e.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "u7al",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.cpu.arrow_lake.core-ultra-7.lga1851.866d3ad357c6e8a09745bdb7bc0d6c9d.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "u9al",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.cpu.arrow_lake.core-ultra-9.lga1851.bd7df6603eff473dfc33966b12010e0b.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "r5z5",
+      "top": 300,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.cpu.zen_5.ryzen-5.am5.a71925395eb09b9e313ffb49826245d1.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "r7z5",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.cpu.zen_5.ryzen-7.am5.8aa28255d9971068a88765c9d058d1eb.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "r9z5",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.10.usd.cpu.zen_5.ryzen-9.am5.a72169654dcbf6ed8be620cea293a057.png",
+      "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "ssd2t",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.10.usd.storage.ssdm2nvme.2000.a067925f69d03738601bd609e8aad4f5.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "ddr4",
+      "top": 600,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.09.cad.ram.ddr4.3200.2x16384.a7b47fa8155ce825b0ec8c35c9374a77.png",
+      "top_auto": true
+    },
+    {
+      "region": "CA",
+      "key": "ddr5",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.09.cad.ram.ddr5.6000.2x16384.6f72bc2170e45d452ffd0b0a124b6179.png",
+      "top_auto": true
+    }
+  ]
+}

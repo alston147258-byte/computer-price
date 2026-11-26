@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>装机行情 · 电脑配件价格</title>
+  <script>document.write('<link rel="stylesheet" href="style.css?v=' + Date.now() + '">');</script>
+  <noscript><link rel="stylesheet" href="style.css"></noscript>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <button id="menuBtn" class="menu-btn" aria-label="打开品类列表">☰</button>
+      <span class="logo">▲</span>
+      <span class="brand-name">装机行情</span>
+      <span class="brand-sub">PC Parts Market</span>
+    </div>
+    <div class="topbar-right">
+      <span class="src-tag" title="国内：什么值得买 · 京东好价；美国/加拿大显卡：GPUPrix 商店报价；历史：PCPartPicker、frocloud、Pricify、CFM 等；内存现货：DRAMeXchange；汇率：欧洲央行参考汇率">京东 · GPUPrix · PCPartPicker</span>
+      <button id="colorToggle" class="ghost-btn" title="切换涨跌配色">红涨绿跌</button>
+      <span id="clock" class="clock num"></span>
+    </div>
+  </header>
+
+  <div class="ticker"><div class="ticker-track" id="tickerTrack"></div></div>
+
+  <div class="layout">
+    <div class="scrim" id="scrim"></div>
+    <aside class="sidebar">
+      <div class="regions" id="regionSeg" role="tablist" aria-label="地区"></div>
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="index" role="tab">大盘</button>
+        <button class="tab" data-tab="detail" role="tab">细节</button>
+      </div>
+      <div class="search">
+        <input id="search" type="search" placeholder="搜索 型号 / 品牌…" autocomplete="off">
+      </div>
+      <div class="list-head"><span>名称</span><span>最新价</span><span>涨跌幅</span></div>
+      <div class="list" id="list"></div>
+      <div class="list-hint">↑ ↓ 键切换</div>
+    </aside>
+
+    <main class="main">
+      <div class="health" id="health" hidden></div>
+      <section class="quote card" id="quote"></section>
+
+      <section class="chart-card card">
+        <div class="chart-toolbar">
+          <div class="seg" id="rangeSeg">
+            <button data-range="30">1月</button>
+            <button data-range="90" class="active">3月</button>
+            <button data-range="180">6月</button>
+            <button data-range="365">1年</button>
+            <button data-range="99999">全部</button>
+          </div>
+          <div class="seg" id="typeSeg">
+            <button data-type="candle" class="active">K线</button>
+            <button data-type="line">走势</button>
+          </div>
+          <div class="ohlc-info num" id="ohlcInfo"></div>
+        </div>
+        <div class="chart-wrap" id="chartWrap"><canvas id="chart"></canvas></div>
+        <div class="chart-note" id="chartNote" hidden></div>
+      </section>
+
+      <section class="compare-card card" id="compareCard" hidden>
+        <div class="table-title">跨地区对比<small id="compareSub"></small></div>
+        <div class="table-scroll"><table class="grid" id="compareTable"></table></div>
+        <div class="compare-note" id="compareNote"></div>
+      </section>
+
+      <section class="table-card card">
+        <div class="table-title" id="tableTitle"></div>
+        <div class="table-scroll"><table class="grid" id="table"></table></div>
+      </section>
+
+      <footer class="foot">
+        国内 2025 年以来的月度历史：数据来自 <a class="q-link" href="https://github.com/royluobox/tubatools-pc-price-data/blob/main/site/data/frocloud-monthly.json" target="_blank" rel="noopener">x1shang / frocloud-DIYPCmarket</a>（<a class="q-link" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>，经图吧工具箱数据仓库转换；作者人工调查的国内在售最低参考价，非实时成交价）。本站按月取当月 15 日作图，CPU 档位取同档各型号中位数，内存 / 固态按每 GB 价折算。
+        国内"渠道价"大盘：<a class="q-link" href="https://www.chinaflashmarket.com/price/ddrchannel" target="_blank" rel="noopener">CFM 闪存市场</a>每周发布的国内渠道市场批发报价（美元，按当周汇率折成人民币；更早的周次来自互联网档案馆快照），和京东零售价是不同口径，单独成盘。
+        美国 2026 年 10 月以来的周数据：<a class="q-link" href="https://pricify.ai" target="_blank" rel="noopener">Pricify (pricify.ai)</a>（<a class="q-link" href="https://github.com/pricify-ai/pc-hardware-prices" target="_blank" rel="noopener">开放数据</a>，CC BY 4.0），取每周美国各零售商自营价的典型价；内存 / 固态取规格一致商品的中位数，与 PCPartPicker 的平均价口径不同。
+        美国显卡 2026 年 9 月中到 10 月中的空档：<a class="q-link" href="https://techfuelhq.com/data/gpu-price-index/" target="_blank" rel="noopener">TechFuelHQ GPU Price Index</a>（CC BY 4.0），取当日 Newegg / Best Buy 全新有货报价的中位数。
+        加拿大显卡 / 固态 2026 年 7 月下旬到 9 月下旬：<a class="q-link" href="https://thedeskbrief.com/canadian-tech-price-index/" target="_blank" rel="noopener">The Desk Brief · Canadian Tech Price Index</a>（Best Buy Canada、Canada Computers、Newegg Canada、Memory Express 四家当日最低价的中位数；原文件已下线，取自互联网档案馆存档）。
+        美国 / 加拿大老型号（30 系、RX 6000 等）2025 年下半年起的月度点：<a class="q-link" href="https://bestvaluegpu.com/" target="_blank" rel="noopener">BestValueGPU</a> 页面上的 Amazon 新卡月均价（取自互联网档案馆存档，已剔除明显异常值；Amazon 价格可能含第三方卖家，与其他来源口径不同）。
+        各地区分开统计，互不混合。国内显卡 / 内存 / CPU / 固态：什么值得买「发现」频道里的京东好价爆料（人民币，含增值税，偏向促销价），大盘价 = 近 7 天京东好价中位数，细节 = 各品牌中位数；部分型号还有媒体报道整理的价格点（口径不一，悬停可看出处）。美国 / 加拿大显卡：GPUPrix 汇总的各商店有货全新报价（美元 / 加元，不含销售税，含 Amazon 第三方卖家），大盘价 = 有货报价中位价；首发以来的历史为 PCPartPicker 价格趋势图的日均价读数（精度约 ±1 像素）。美国 / 加拿大内存、固态、CPU：历史同样来自 PCPartPicker 趋势图（CPU 为各系列平均价）；加拿大每日现价来自 Best Buy 加拿大（含第三方卖家，取中位数）；美国的最新价来自上面的 Pricify 周数据。全球现货：DRAMeXchange 内存颗粒 / 内存条 / 闪存现货价（美元，K线高/低为 Session High/Low，收盘为 Session Average），2023 年以来的历史由互联网档案馆快照回填。汇率为欧洲央行参考汇率。
+        图上的圆点是间隔较大的单点数据（月度 / 周度 / 报道），竖虚线标出数据来源切换处，跨来源的涨跌幅只作参考。每天自动采集一次，开盘 = 前一日收盘。
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // 按顺序加载，并加时间戳避免浏览器缓存旧数据（每天采集后刷新即可看到新价格）
+    (function () {
+      var v = Date.now();
+      var files = ['data/prices.js', 'data.js', 'app.js'];
+      (function next(i) {
+        if (i >= files.length) return;
+        var s = document.createElement('script');
+        s.src = files[i] + '?v=' + v;
+        s.onload = s.onerror = function () { next(i + 1); };
+        document.body.appendChild(s);
+      })(0);
+    })();
+  </script>
+</body>
+</html>

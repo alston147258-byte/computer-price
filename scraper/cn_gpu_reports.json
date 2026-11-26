@@ -1,0 +1,49 @@
+{
+  "_说明": "国内显卡价格的历史数据点，整理自公开媒体报道（2025 年首发至今）。国内电商没有可公开获取的历史价格曲线，所以这里是人工整理的稀疏数据点：每点注明口径和出处。口径不一（官方首发价 / 京东自营 / 电商最低 / 渠道批发 / 华强北），只能看大趋势，不能当成同一条连续曲线精确比较。区间价格一律取下限。没有可靠来源的季度留空，不插值。",
+  "source": "媒体报道整理（口径不一）",
+  "points": {
+    "5060ti": [
+      { "date": "2025-04-16", "price": 3599, "kind": "官方首发价（16G）", "url": "https://www.xinjiyou.com/news/1180.html" },
+      { "date": "2025-05-13", "price": 3300, "kind": "电商低价，博主汇总（约）", "url": "https://zhuanlan.zhihu.com/p/1905035293180008082" },
+      { "date": "2026-05-15", "price": 3499, "kind": "618 活动价（索泰 16G）", "url": "https://zhuanlan.zhihu.com/p/2038387836332806327" }
+    ],
+    "5070": [
+      { "date": "2025-03-05", "price": 4599, "kind": "官方首发指导价", "url": "https://post.smzdm.com/p/a3mr6gpk/" },
+      { "date": "2025-05-13", "price": 4300, "kind": "入门款电商价，博主汇总", "url": "https://zhuanlan.zhihu.com/p/1905035293180008082" },
+      { "date": "2026-07-06", "price": 4850, "kind": "渠道批发价（4850–4980）", "url": "https://www.gamersky.com/hardware/202607/2167215.shtml" },
+      { "date": "2026-07-31", "price": 6000, "kind": "华强北渠道价（6000–6500，央视财经）", "url": "https://post.smzdm.com/p/a3mr6gpk/" },
+      { "date": "2026-10-31", "price": 8999, "kind": "电商套餐挂价 9299 减 500 补贴", "url": "https://post.smzdm.com/p/a3mr6gpk/" },
+      { "date": "2026-11-16", "price": 7000, "kind": "渠道批发价，跌破 7000（约）", "url": "https://post.smzdm.com/p/a3mr6gpk/" },
+      { "date": "2026-11-25", "price": 8199, "kind": "电商最低到手价", "url": "https://post.smzdm.com/p/anvm0vw0/" }
+    ],
+    "5070ti": [
+      { "date": "2025-02-20", "price": 6299, "kind": "官方首发价", "url": "https://news.mydrivers.com/1/1052/1052396.htm" },
+      { "date": "2025-11-10", "price": 5799, "kind": "电商低价，博主汇总", "url": "https://zhuanlan.zhihu.com/p/1971012413257131039" },
+      { "date": "2026-05-15", "price": 7000, "kind": "京东自营标价突破 7000（日期取月中）", "url": "https://post.smzdm.com/p/agg09mxw/" },
+      { "date": "2026-06-22", "price": 6999, "kind": "主流渠道售价（6999–9000）", "url": "https://news.qq.com/rain/a/20260622A0BA7400" },
+      { "date": "2026-11-25", "price": 10944, "kind": "当日报价（最低）", "url": "https://post.smzdm.com/p/a3mr6gpk/" }
+    ],
+    "5080": [
+      { "date": "2025-01-30", "price": 8299, "kind": "官方首发价", "url": "https://www.ithome.com/0/827/998.htm" },
+      { "date": "2025-05-13", "price": 8500, "kind": "电商价跌破 8500，博主汇总（约）", "url": "https://zhuanlan.zhihu.com/p/1905035293180008082" },
+      { "date": "2026-07-15", "price": 12000, "kind": "国内起售价（日期取月中）", "url": "https://www.gamersky.com/hardware/202607/2178794.shtml" },
+      { "date": "2026-09-08", "price": 11700, "kind": "渠道批发价（11700–13700）", "url": "https://view.inews.qq.com/a/20260908A0A07400" },
+      { "date": "2026-10-28", "price": 20000, "kind": "市场行情高点（近 2 万，约）", "url": "https://post.smzdm.com/p/a3mr6gpk/" },
+      { "date": "2026-11-11", "price": 16000, "kind": "双 11 线上售价（1.6 万–1.8 万）", "url": "https://post.smzdm.com/p/a3mr6gpk/" },
+      { "date": "2026-11-25", "price": 14218, "kind": "报价最低", "url": "https://post.smzdm.com/p/anvm0vw0/" }
+    ],
+    "5090d": [
+      { "date": "2025-01-30", "price": 16499, "kind": "官方首发价（5090 D）", "url": "https://www.ithome.com/0/827/998.htm" },
+      { "date": "2026-05-22", "price": 23599, "kind": "京东标价（七彩虹 5090 D V2）", "url": "https://zhuanlan.zhihu.com/p/2040260709750149295" },
+      { "date": "2026-07-15", "price": 30000, "kind": "国内渠道价突破 3 万（日期取月中）", "url": "https://k.sina.cn/article_7879996046_1d5af328e06801hxby.html" },
+      { "date": "2026-11-25", "price": 44300, "kind": "5090/5090 D 混合报价日低", "url": "https://post.smzdm.com/p/anvm0vw0/" }
+    ],
+    "9070xt": [
+      { "date": "2025-03-06", "price": 4999, "kind": "官方首发价", "url": "https://www.ithome.com/0/834/273.htm" },
+      { "date": "2025-11-11", "price": 4449, "kind": "双十一京东自营最低", "url": "https://zhuanlan.zhihu.com/p/1963989578055660157" },
+      { "date": "2026-05-29", "price": 4570, "kind": "京东自营最低到手（瀚铠）", "url": "https://www.itcn.cc/vga/2026052910108.html" },
+      { "date": "2026-10-15", "price": 4700, "kind": "比价网站最低观测", "url": "https://hardwarerk.com/zh-CN/gpu/rx-9070-xt" },
+      { "date": "2026-11-25", "price": 7999, "kind": "报价最低", "url": "https://post.smzdm.com/p/anvm0vw0/" }
+    ]
+  }
+}

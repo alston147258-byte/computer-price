@@ -1,0 +1,5 @@
+{
+  "_说明": "target 留空 = 自动寻找 Google Drive 桌面版的同步文件夹（如 G:\\My Drive）；也可以填任意文件夹路径，例如 \"G:\\\\My Drive\"。备份放在 target 下的 folder_name 文件夹里。",
+  "target": null,
+  "folder_name": "装机行情备份"
+}

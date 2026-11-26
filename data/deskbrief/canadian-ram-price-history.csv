@@ -1,0 +1,660 @@
+observation_date,category,configuration,configuration_label,lowest_price_cad,median_retailer_low_cad,reporting_retailer_count,lowest_price_retailer,qualifying_listing_count_at_low,coverage_note
+2026-07-13,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),269.99,279.99,2,Canada Computers,9,multiple reporting retailers
+2026-07-13,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),620.99,630.49,2,Canada Computers,12,multiple reporting retailers
+2026-07-13,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1299.00,1299.49,2,Best Buy Canada,5,multiple reporting retailers
+2026-07-20,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),269.99,269.99,1,Canada Computers,6,single reporting retailer
+2026-07-20,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),620.99,620.99,1,Canada Computers,12,single reporting retailer
+2026-07-20,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB),1299.99,1299.99,1,Canada Computers,5,single reporting retailer
+2026-07-21,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),269.99,269.99,1,Canada Computers,6,single reporting retailer
+2026-07-21,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),620.99,620.99,1,Canada Computers,12,single reporting retailer
+2026-07-21,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB),1299.99,1299.99,1,Canada Computers,1,single reporting retailer
+2026-07-22,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),269.99,269.99,1,Canada Computers,6,single reporting retailer
+2026-07-22,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),549.88,549.88,1,Canada Computers,12,single reporting retailer
+2026-07-22,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB),1299.99,1299.99,1,Canada Computers,1,single reporting retailer
+2026-07-23,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),269.99,269.99,1,Canada Computers,6,single reporting retailer
+2026-07-23,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),659.99,659.99,1,Canada Computers,12,single reporting retailer
+2026-07-23,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB),1299.99,1299.99,1,Canada Computers,1,single reporting retailer
+2026-07-24,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-07-24,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,334.99,2,Newegg Canada,13,multiple reporting retailers
+2026-07-24,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,5,single reporting retailer
+2026-07-24,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-07-24,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,338.99,2,Newegg Canada,9,multiple reporting retailers
+2026-07-24,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,629.99,2,Newegg Canada,35,multiple reporting retailers
+2026-07-24,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1009.99,1149.99,2,Newegg Canada,32,multiple reporting retailers
+2026-07-25,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-25,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,184.99,2,Memory Express,2,multiple reporting retailers
+2026-07-25,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,334.99,2,Newegg Canada,11,multiple reporting retailers
+2026-07-25,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-07-25,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-25,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-07-25,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1286.98,1286.98,1,Best Buy Canada,2,single reporting retailer
+2026-07-25,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-07-25,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,344.99,3,Newegg Canada,9,multiple reporting retailers
+2026-07-25,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,599.98,3,Newegg Canada,33,multiple reporting retailers
+2026-07-25,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1009.99,1286.98,3,Newegg Canada,32,multiple reporting retailers
+2026-07-26,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-26,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,184.99,2,Memory Express,2,multiple reporting retailers
+2026-07-26,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,334.99,2,Newegg Canada,15,multiple reporting retailers
+2026-07-26,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-07-26,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-26,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-07-26,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1286.98,1286.98,1,Best Buy Canada,2,single reporting retailer
+2026-07-26,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-07-26,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,344.99,3,Newegg Canada,9,multiple reporting retailers
+2026-07-26,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,599.98,3,Newegg Canada,33,multiple reporting retailers
+2026-07-26,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1009.99,1148.49,2,Newegg Canada,32,multiple reporting retailers
+2026-07-27,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-27,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,184.99,2,Memory Express,2,multiple reporting retailers
+2026-07-27,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,334.99,2,Newegg Canada,15,multiple reporting retailers
+2026-07-27,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-07-27,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-27,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-07-27,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1286.98,1286.98,1,Best Buy Canada,2,single reporting retailer
+2026-07-27,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-07-27,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,344.99,3,Newegg Canada,9,multiple reporting retailers
+2026-07-27,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,599.98,3,Newegg Canada,33,multiple reporting retailers
+2026-07-27,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.99,1243.49,2,Newegg Canada,32,multiple reporting retailers
+2026-07-28,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-28,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-07-28,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,334.99,2,Newegg Canada,12,multiple reporting retailers
+2026-07-28,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-07-28,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-28,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-07-28,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1286.98,1286.98,1,Best Buy Canada,2,single reporting retailer
+2026-07-28,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-07-28,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,344.99,3,Newegg Canada,9,multiple reporting retailers
+2026-07-28,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,599.98,3,Newegg Canada,33,multiple reporting retailers
+2026-07-28,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.99,1243.49,2,Newegg Canada,32,multiple reporting retailers
+2026-07-29,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-29,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-07-29,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,329.99,2,Memory Express; Newegg Canada,16,multiple reporting retailers
+2026-07-29,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-07-29,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-29,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-07-29,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1286.98,1286.98,1,Best Buy Canada,2,single reporting retailer
+2026-07-29,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4799.99,4799.99,1,Newegg Canada,2,single reporting retailer
+2026-07-29,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,344.99,3,Newegg Canada,9,multiple reporting retailers
+2026-07-29,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,599.98,3,Newegg Canada,33,multiple reporting retailers
+2026-07-29,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.99,1243.49,2,Newegg Canada,32,multiple reporting retailers
+2026-07-30,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-30,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-07-30,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,329.99,2,Memory Express; Newegg Canada,16,multiple reporting retailers
+2026-07-30,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-07-30,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-30,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-07-30,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1286.98,1286.98,1,Best Buy Canada,2,single reporting retailer
+2026-07-30,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-07-30,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,344.99,3,Newegg Canada,9,multiple reporting retailers
+2026-07-30,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,599.98,3,Newegg Canada,33,multiple reporting retailers
+2026-07-30,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1268.49,2,Newegg Canada,31,multiple reporting retailers
+2026-07-31,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-31,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-07-31,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,329.99,2,Memory Express; Newegg Canada,16,multiple reporting retailers
+2026-07-31,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-07-31,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-31,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-07-31,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-07-31,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-07-31,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,344.99,3,Newegg Canada,16,multiple reporting retailers
+2026-07-31,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,649.99,3,Newegg Canada,33,multiple reporting retailers
+2026-07-31,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1424.99,2,Newegg Canada,31,multiple reporting retailers
+2026-08-01,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-01,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-01,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,329.99,2,Memory Express; Newegg Canada,16,multiple reporting retailers
+2026-08-01,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-01,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-01,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),639.98,639.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-01,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-01,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-01,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,344.99,3,Newegg Canada,16,multiple reporting retailers
+2026-08-01,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.98,3,Newegg Canada,35,multiple reporting retailers
+2026-08-01,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1424.99,2,Newegg Canada,31,multiple reporting retailers
+2026-08-02,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-02,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-02,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,329.99,2,Memory Express; Newegg Canada,16,multiple reporting retailers
+2026-08-02,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-02,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-02,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),639.98,639.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-02,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-02,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-02,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,344.99,3,Newegg Canada,16,multiple reporting retailers
+2026-08-02,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.98,3,Newegg Canada,35,multiple reporting retailers
+2026-08-02,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1424.99,2,Newegg Canada,31,multiple reporting retailers
+2026-08-03,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-03,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-03,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-03,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-03,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-03,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),639.98,639.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-03,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-03,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-03,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,346.49,4,Newegg Canada,16,multiple reporting retailers
+2026-08-03,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,634.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-03,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.00,1249.99,3,Canada Computers,23,multiple reporting retailers
+2026-08-04,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-04,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-04,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-04,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-04,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-04,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),639.98,639.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-04,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-04,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-04,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,346.49,4,Newegg Canada,16,multiple reporting retailers
+2026-08-04,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,634.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-04,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1164.99,1199.00,3,Newegg Canada,32,multiple reporting retailers
+2026-08-05,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-05,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-05,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-05,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-05,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-05,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),639.98,639.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-05,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1549.98,1549.98,1,Best Buy Canada,2,single reporting retailer
+2026-08-05,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-05,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,346.49,4,Newegg Canada,16,multiple reporting retailers
+2026-08-05,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,634.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-05,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1164.99,1199.00,3,Newegg Canada,29,multiple reporting retailers
+2026-08-06,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-06,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-06,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-06,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-06,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-06,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-06,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1549.98,1549.98,1,Best Buy Canada,2,single reporting retailer
+2026-08-06,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-06,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,346.49,4,Newegg Canada,15,multiple reporting retailers
+2026-08-06,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-06,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1164.99,1199.00,3,Newegg Canada,31,multiple reporting retailers
+2026-08-07,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-07,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-07,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-07,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-07,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-07,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-07,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-07,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-07,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,346.49,4,Newegg Canada,15,multiple reporting retailers
+2026-08-07,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-07,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1164.99,1199.00,3,Newegg Canada,31,multiple reporting retailers
+2026-08-08,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-08,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-08,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-08,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-08,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-08,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-08,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-08,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-08,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,342.49,4,Memory Express,2,multiple reporting retailers
+2026-08-08,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,614.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-08,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1164.99,1199.00,3,Newegg Canada,31,multiple reporting retailers
+2026-08-09,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-09,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,179.99,2,Memory Express,2,multiple reporting retailers
+2026-08-09,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-09,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-09,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-09,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-09,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-09,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-09,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,342.49,4,Memory Express,2,multiple reporting retailers
+2026-08-09,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,614.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-09,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1164.99,1199.00,3,Newegg Canada,31,multiple reporting retailers
+2026-08-10,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-10,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,179.99,2,Memory Express,2,multiple reporting retailers
+2026-08-10,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,329.99,2,Memory Express; Newegg Canada,17,multiple reporting retailers
+2026-08-10,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-10,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-10,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-10,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-10,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-10,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,339.99,3,Memory Express,2,multiple reporting retailers
+2026-08-10,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,599.98,3,Newegg Canada,34,multiple reporting retailers
+2026-08-10,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1164.99,1382.49,2,Newegg Canada,29,multiple reporting retailers
+2026-08-11,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-11,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-11,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-11,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-11,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-11,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-11,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1549.98,1549.98,1,Best Buy Canada,2,single reporting retailer
+2026-08-11,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-11,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,342.49,4,Memory Express,2,multiple reporting retailers
+2026-08-11,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-11,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.00,1328.99,3,Canada Computers,23,multiple reporting retailers
+2026-08-12,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-12,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-12,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-12,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-12,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-12,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),699.98,699.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-12,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1549.98,1549.98,1,Best Buy Canada,2,single reporting retailer
+2026-08-12,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-12,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,342.49,4,Memory Express,2,multiple reporting retailers
+2026-08-12,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,659.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-12,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.00,1328.99,3,Canada Computers,23,multiple reporting retailers
+2026-08-13,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-13,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-13,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-13,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-13,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),344.99,344.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-13,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.98,649.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-13,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1549.98,1549.98,1,Best Buy Canada,2,single reporting retailer
+2026-08-13,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,2,single reporting retailer
+2026-08-13,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,342.49,4,Memory Express,2,multiple reporting retailers
+2026-08-13,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-13,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.00,1249.99,3,Canada Computers,23,multiple reporting retailers
+2026-08-14,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-14,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-14,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-14,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-14,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-14,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-14,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-14,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-14,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,356.49,4,Newegg Canada,15,multiple reporting retailers
+2026-08-14,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-14,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.00,1299.99,3,Canada Computers,22,multiple reporting retailers
+2026-08-15,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-15,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-15,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-15,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-08-15,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-15,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-15,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-15,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3679.99,3679.99,1,Newegg Canada,3,single reporting retailer
+2026-08-15,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,356.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-15,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-15,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1299.99,1299.99,3,Canada Computers; Newegg Canada,52,multiple reporting retailers
+2026-08-16,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-16,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-16,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-16,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-16,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-16,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-16,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-16,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3689.99,3689.99,1,Newegg Canada,2,single reporting retailer
+2026-08-16,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,356.49,4,Newegg Canada,13,multiple reporting retailers
+2026-08-16,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-16,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,32,multiple reporting retailers
+2026-08-17,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-17,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-17,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-17,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-17,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-17,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-17,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-17,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),3689.99,3689.99,1,Newegg Canada,2,single reporting retailer
+2026-08-17,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,356.49,4,Newegg Canada,13,multiple reporting retailers
+2026-08-17,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-17,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,31,multiple reporting retailers
+2026-08-18,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-18,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),169.99,179.99,2,Memory Express,2,multiple reporting retailers
+2026-08-18,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-18,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,4,single reporting retailer
+2026-08-18,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-18,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-18,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-18,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-08-18,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,356.49,4,Newegg Canada,13,multiple reporting retailers
+2026-08-18,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-18,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1299.99,1299.99,3,Canada Computers; Newegg Canada,52,multiple reporting retailers
+2026-08-19,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-19,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),169.99,179.99,2,Memory Express,2,multiple reporting retailers
+2026-08-19,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-19,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),899.99,899.99,1,Newegg Canada,6,single reporting retailer
+2026-08-19,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-19,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-19,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-19,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-08-19,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,356.49,4,Newegg Canada,13,multiple reporting retailers
+2026-08-19,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-19,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.00,1299.99,3,Canada Computers,22,multiple reporting retailers
+2026-08-20,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-20,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),169.99,179.99,2,Memory Express,2,multiple reporting retailers
+2026-08-20,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,329.99,3,Canada Computers,3,multiple reporting retailers
+2026-08-20,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),899.99,899.99,1,Newegg Canada,6,single reporting retailer
+2026-08-20,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-20,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-20,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-20,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4819.99,4819.99,1,Newegg Canada,2,single reporting retailer
+2026-08-20,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,356.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-20,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-20,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.00,1299.99,3,Canada Computers,22,multiple reporting retailers
+2026-08-21,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-21,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-21,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,324.99,2,Canada Computers,3,multiple reporting retailers
+2026-08-21,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),899.99,899.99,1,Newegg Canada,4,single reporting retailer
+2026-08-21,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-21,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-21,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-21,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4799.99,4799.99,1,Newegg Canada,3,single reporting retailer
+2026-08-21,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,357.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-21,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-21,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.00,1249.99,3,Canada Computers,22,multiple reporting retailers
+2026-08-22,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-22,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-22,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,324.99,2,Canada Computers,3,multiple reporting retailers
+2026-08-22,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),899.99,899.99,1,Newegg Canada,4,single reporting retailer
+2026-08-22,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-22,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-22,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-22,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-08-22,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,357.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-22,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-22,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.00,1249.99,3,Canada Computers,22,multiple reporting retailers
+2026-08-23,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-23,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-23,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),329.99,329.99,1,Newegg Canada,16,single reporting retailer
+2026-08-23,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-08-23,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-23,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-23,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-23,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-08-23,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,349.99,3,Newegg Canada,14,multiple reporting retailers
+2026-08-23,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,649.99,3,Newegg Canada,34,multiple reporting retailers
+2026-08-23,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1424.99,2,Newegg Canada,31,multiple reporting retailers
+2026-08-24,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-24,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-24,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),319.99,324.99,2,Canada Computers,3,multiple reporting retailers
+2026-08-24,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-08-24,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-24,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-24,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-24,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-08-24,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,357.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-24,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-24,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1199.00,1249.99,3,Canada Computers,21,multiple reporting retailers
+2026-08-25,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-25,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-25,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,311.49,2,Newegg Canada,17,multiple reporting retailers
+2026-08-25,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-08-25,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-25,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),649.99,649.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-25,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-25,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-08-25,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,357.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-25,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,639.99,4,Newegg Canada,35,multiple reporting retailers
+2026-08-25,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,31,multiple reporting retailers
+2026-08-26,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-26,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-26,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,306.49,2,Newegg Canada,17,multiple reporting retailers
+2026-08-26,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),899.99,899.99,1,Newegg Canada,4,single reporting retailer
+2026-08-26,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-26,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-26,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-26,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-08-26,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,357.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-26,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,599.99,4,Newegg Canada,35,multiple reporting retailers
+2026-08-26,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,32,multiple reporting retailers
+2026-08-27,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),339.99,339.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-27,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-27,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,306.49,2,Newegg Canada,17,multiple reporting retailers
+2026-08-27,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-08-27,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),364.99,364.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-27,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-27,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-27,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-08-27,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,357.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-27,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),569.99,599.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-27,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,31,multiple reporting retailers
+2026-08-28,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-28,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-28,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,306.49,2,Newegg Canada,17,multiple reporting retailers
+2026-08-28,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-08-28,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-28,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.99,659.99,1,Best Buy Canada,6,single reporting retailer
+2026-08-28,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-28,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-08-28,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-28,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),589.99,629.99,4,Newegg Canada,35,multiple reporting retailers
+2026-08-28,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,30,multiple reporting retailers
+2026-08-29,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-29,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-29,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,306.49,2,Newegg Canada,17,multiple reporting retailers
+2026-08-29,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-08-29,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-29,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-29,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-29,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-08-29,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-29,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),589.99,599.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-29,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,30,multiple reporting retailers
+2026-08-30,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-30,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-30,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,306.49,2,Newegg Canada,17,multiple reporting retailers
+2026-08-30,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-08-30,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-30,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-30,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-30,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,2,single reporting retailer
+2026-08-30,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-30,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),589.99,599.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-30,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,31,multiple reporting retailers
+2026-08-31,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-31,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-08-31,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,306.49,2,Newegg Canada,17,multiple reporting retailers
+2026-08-31,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-08-31,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-31,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-08-31,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-08-31,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,2,single reporting retailer
+2026-08-31,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,14,multiple reporting retailers
+2026-08-31,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),589.99,599.99,4,Newegg Canada,34,multiple reporting retailers
+2026-08-31,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,31,multiple reporting retailers
+2026-09-01,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-01,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-09-01,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,306.49,2,Newegg Canada,17,multiple reporting retailers
+2026-09-01,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-09-01,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-01,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),599.98,599.98,1,Best Buy Canada,6,single reporting retailer
+2026-09-01,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-01,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-09-01,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,14,multiple reporting retailers
+2026-09-01,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),589.99,599.99,4,Newegg Canada,34,multiple reporting retailers
+2026-09-01,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,31,multiple reporting retailers
+2026-09-02,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-02,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-09-02,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,306.49,2,Newegg Canada,16,multiple reporting retailers
+2026-09-02,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),899.99,899.99,1,Newegg Canada,4,single reporting retailer
+2026-09-02,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-02,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.98,659.98,1,Best Buy Canada,6,single reporting retailer
+2026-09-02,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-02,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,1,single reporting retailer
+2026-09-02,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,14,multiple reporting retailers
+2026-09-02,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),589.99,629.99,4,Newegg Canada,34,multiple reporting retailers
+2026-09-02,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,32,multiple reporting retailers
+2026-09-03,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-03,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),159.99,174.99,2,Memory Express,2,multiple reporting retailers
+2026-09-03,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,306.49,2,Newegg Canada,16,multiple reporting retailers
+2026-09-03,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),899.99,899.99,1,Newegg Canada,4,single reporting retailer
+2026-09-03,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-03,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.98,659.98,1,Best Buy Canada,6,single reporting retailer
+2026-09-03,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-03,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,2,single reporting retailer
+2026-09-03,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,14,multiple reporting retailers
+2026-09-03,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),589.99,629.99,4,Newegg Canada,34,multiple reporting retailers
+2026-09-03,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,30,multiple reporting retailers
+2026-09-04,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-04,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),169.99,179.99,2,Memory Express,2,multiple reporting retailers
+2026-09-04,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,323.99,2,Newegg Canada,15,multiple reporting retailers
+2026-09-04,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),899.99,899.99,1,Newegg Canada,4,single reporting retailer
+2026-09-04,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-04,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.99,659.99,1,Best Buy Canada,6,single reporting retailer
+2026-09-04,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-04,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,2,single reporting retailer
+2026-09-04,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,16,multiple reporting retailers
+2026-09-04,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,639.99,4,Canada Computers,28,multiple reporting retailers
+2026-09-04,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,29,multiple reporting retailers
+2026-09-05,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-05,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),169.99,179.99,2,Memory Express,2,multiple reporting retailers
+2026-09-05,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,323.99,2,Newegg Canada,15,multiple reporting retailers
+2026-09-05,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),899.99,899.99,1,Newegg Canada,4,single reporting retailer
+2026-09-05,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-05,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.99,659.99,1,Best Buy Canada,6,single reporting retailer
+2026-09-05,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-05,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,2,single reporting retailer
+2026-09-05,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,16,multiple reporting retailers
+2026-09-05,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,639.99,4,Canada Computers,28,multiple reporting retailers
+2026-09-05,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,29,multiple reporting retailers
+2026-09-06,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-06,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),169.99,179.99,2,Memory Express,2,multiple reporting retailers
+2026-09-06,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),302.99,323.99,2,Newegg Canada,15,multiple reporting retailers
+2026-09-06,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),899.99,899.99,1,Newegg Canada,4,single reporting retailer
+2026-09-06,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-06,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.99,659.99,1,Best Buy Canada,6,single reporting retailer
+2026-09-06,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-06,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,2,single reporting retailer
+2026-09-06,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,16,multiple reporting retailers
+2026-09-06,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,639.99,4,Canada Computers,28,multiple reporting retailers
+2026-09-06,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,31,multiple reporting retailers
+2026-09-07,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-07,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),169.99,169.99,1,Memory Express,2,single reporting retailer
+2026-09-07,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),344.99,344.99,1,Canada Computers,3,single reporting retailer
+2026-09-07,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-07,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.99,659.99,1,Best Buy Canada,6,single reporting retailer
+2026-09-07,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-07,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),349.99,374.99,3,Memory Express,1,multiple reporting retailers
+2026-09-07,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,659.99,3,Canada Computers,28,multiple reporting retailers
+2026-09-07,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1299.99,1449.99,2,Canada Computers,19,multiple reporting retailers
+2026-09-08,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-08,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.98,189.99,2,Newegg Canada,9,multiple reporting retailers
+2026-09-08,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),344.99,347.49,2,Canada Computers,3,multiple reporting retailers
+2026-09-08,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-09-08,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-08,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.99,659.99,1,Best Buy Canada,6,single reporting retailer
+2026-09-08,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-08,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-09-08,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,16,multiple reporting retailers
+2026-09-08,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,639.99,4,Canada Computers,28,multiple reporting retailers
+2026-09-08,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,30,multiple reporting retailers
+2026-09-09,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),349.99,349.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-09,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.98,189.99,2,Newegg Canada,9,multiple reporting retailers
+2026-09-09,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),349.99,362.49,2,Newegg Canada,14,multiple reporting retailers
+2026-09-09,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-09-09,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-09,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.99,659.99,1,Best Buy Canada,6,single reporting retailer
+2026-09-09,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-09,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-09-09,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,16,multiple reporting retailers
+2026-09-09,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,639.99,4,Canada Computers,28,multiple reporting retailers
+2026-09-09,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,30,multiple reporting retailers
+2026-09-10,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),359.99,359.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-10,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.98,189.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-10,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),299.99,337.49,2,Newegg Canada,14,multiple reporting retailers
+2026-09-10,ram,ddr4-3600-64gb,DDR4-3600 64GB kit (2x32GB or 4x16GB),1236.00,1236.00,1,Newegg Canada,3,single reporting retailer
+2026-09-10,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),374.99,374.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-10,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),741.99,741.99,1,Best Buy Canada,6,single reporting retailer
+2026-09-10,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1779.99,1779.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-10,ram,ddr5-6000-128gb,DDR5-6000 128GB kit (2x64GB or 4x32GB),4789.99,4789.99,1,Newegg Canada,3,single reporting retailer
+2026-09-10,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),339.99,362.49,4,Newegg Canada,16,multiple reporting retailers
+2026-09-10,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),587.99,649.99,4,Newegg Canada,34,multiple reporting retailers
+2026-09-10,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1249.99,1299.99,3,Newegg Canada,30,multiple reporting retailers
+2026-09-11,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,369.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-11,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-11,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,372.49,2,Memory Express,2,multiple reporting retailers
+2026-09-11,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),371.99,371.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-11,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.98,659.98,1,Best Buy Canada,6,single reporting retailer
+2026-09-11,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-11,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,371.99,3,Memory Express,2,multiple reporting retailers
+2026-09-11,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,659.98,3,Canada Computers,28,multiple reporting retailers
+2026-09-11,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1299.99,1449.99,2,Canada Computers,19,multiple reporting retailers
+2026-09-12,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,369.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-12,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-12,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,372.49,2,Memory Express,2,multiple reporting retailers
+2026-09-12,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),371.99,371.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-12,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.98,659.98,1,Best Buy Canada,6,single reporting retailer
+2026-09-12,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1599.99,1599.99,1,Best Buy Canada,2,single reporting retailer
+2026-09-12,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,371.99,3,Memory Express,2,multiple reporting retailers
+2026-09-12,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,659.98,3,Canada Computers,28,multiple reporting retailers
+2026-09-12,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1299.99,1449.99,2,Canada Computers,19,multiple reporting retailers
+2026-09-13,ram,ddr4-3200-16gb,DDR4-3200 16GB kit (2x8GB),179.99,194.99,2,Canada Computers,6,multiple reporting retailers
+2026-09-13,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,369.99,3,Best Buy Canada; Canada Computers,8,multiple reporting retailers
+2026-09-13,ram,ddr4-3200-so-16gb,DDR4-3200 SODIMM 16GB kit (2x8GB),279.99,279.99,1,Canada Computers,1,single reporting retailer
+2026-09-13,ram,ddr4-3200-so-32gb,DDR4-3200 SODIMM 32GB kit (2x16GB),359.99,359.99,1,Canada Computers,2,single reporting retailer
+2026-09-13,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-13,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,372.49,2,Memory Express,2,multiple reporting retailers
+2026-09-13,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),349.98,360.99,2,Memory Express,3,multiple reporting retailers
+2026-09-13,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.98,689.99,3,Best Buy Canada,6,multiple reporting retailers
+2026-09-13,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1299.99,1449.99,2,Canada Computers,16,multiple reporting retailers
+2026-09-13,ram,ddr5-5600-so-32gb,DDR5-5600 SODIMM 32GB kit (2x16GB),619.99,619.99,1,Canada Computers,2,single reporting retailer
+2026-09-13,ram,ddr5-5600-so-64gb,DDR5-5600 SODIMM 64GB kit (2x32GB),1386.99,1386.99,1,Canada Computers,2,single reporting retailer
+2026-09-13,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,371.99,3,Memory Express,2,multiple reporting retailers
+2026-09-13,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,659.98,3,Canada Computers,21,multiple reporting retailers
+2026-09-13,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1299.99,1449.99,2,Canada Computers,15,multiple reporting retailers
+2026-09-13,ram,ddr5-7200-32gb,DDR5-7200 32GB kit (2x16GB),679.97,679.97,1,Memory Express,1,single reporting retailer
+2026-09-14,ram,ddr4-3200-16gb,DDR4-3200 16GB kit (2x8GB),179.99,194.99,2,Canada Computers,6,multiple reporting retailers
+2026-09-14,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,369.99,3,Best Buy Canada; Canada Computers,8,multiple reporting retailers
+2026-09-14,ram,ddr4-3200-so-16gb,DDR4-3200 SODIMM 16GB kit (2x8GB),279.99,279.99,1,Canada Computers,1,single reporting retailer
+2026-09-14,ram,ddr4-3200-so-32gb,DDR4-3200 SODIMM 32GB kit (2x16GB),359.99,359.99,1,Canada Computers,2,single reporting retailer
+2026-09-14,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-14,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,372.49,2,Memory Express,2,multiple reporting retailers
+2026-09-14,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),349.98,360.99,2,Memory Express,3,multiple reporting retailers
+2026-09-14,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),659.98,689.99,3,Best Buy Canada,6,multiple reporting retailers
+2026-09-14,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1299.99,1449.99,2,Canada Computers,16,multiple reporting retailers
+2026-09-14,ram,ddr5-5600-so-32gb,DDR5-5600 SODIMM 32GB kit (2x16GB),619.99,619.99,1,Canada Computers,2,single reporting retailer
+2026-09-14,ram,ddr5-5600-so-64gb,DDR5-5600 SODIMM 64GB kit (2x32GB),1386.99,1386.99,1,Canada Computers,2,single reporting retailer
+2026-09-14,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,371.99,3,Memory Express,2,multiple reporting retailers
+2026-09-14,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,659.98,3,Canada Computers,21,multiple reporting retailers
+2026-09-14,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1299.99,1449.99,2,Canada Computers,15,multiple reporting retailers
+2026-09-14,ram,ddr5-7200-32gb,DDR5-7200 32GB kit (2x16GB),679.97,679.97,1,Memory Express,1,single reporting retailer
+2026-09-15,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,484.99,2,Canada Computers,6,multiple reporting retailers
+2026-09-15,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-15,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,372.49,2,Memory Express,2,multiple reporting retailers
+2026-09-15,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),349.98,349.98,1,Memory Express,3,single reporting retailer
+2026-09-15,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),689.99,744.99,2,Canada Computers,17,multiple reporting retailers
+2026-09-15,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1299.99,1299.99,1,Canada Computers,15,single reporting retailer
+2026-09-15,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),329.99,394.99,2,Memory Express,2,multiple reporting retailers
+2026-09-15,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,694.99,3,Canada Computers,19,multiple reporting retailers
+2026-09-15,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1299.99,1299.99,1,Canada Computers,14,single reporting retailer
+2026-09-16,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,484.99,2,Canada Computers,6,multiple reporting retailers
+2026-09-16,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-16,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,372.49,2,Memory Express,2,multiple reporting retailers
+2026-09-16,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),349.98,349.98,1,Memory Express,3,single reporting retailer
+2026-09-16,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),689.99,744.99,2,Canada Computers,17,multiple reporting retailers
+2026-09-16,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1299.99,1299.99,1,Canada Computers,15,single reporting retailer
+2026-09-16,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),349.99,404.99,2,Memory Express,2,multiple reporting retailers
+2026-09-16,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,694.99,3,Canada Computers,19,multiple reporting retailers
+2026-09-16,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1299.99,1299.99,1,Canada Computers,14,single reporting retailer
+2026-09-17,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,484.99,2,Canada Computers,6,multiple reporting retailers
+2026-09-17,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-17,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,372.49,2,Memory Express,2,multiple reporting retailers
+2026-09-17,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),349.98,349.98,1,Memory Express,3,single reporting retailer
+2026-09-17,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),689.99,744.99,2,Canada Computers,17,multiple reporting retailers
+2026-09-17,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1299.99,1299.99,1,Canada Computers,16,single reporting retailer
+2026-09-17,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),349.99,404.99,2,Memory Express,2,multiple reporting retailers
+2026-09-17,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,694.99,3,Canada Computers,19,multiple reporting retailers
+2026-09-17,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1399.99,1399.99,1,Canada Computers,14,single reporting retailer
+2026-09-18,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,474.99,2,Canada Computers,6,multiple reporting retailers
+2026-09-18,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-18,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,377.49,2,Memory Express,1,multiple reporting retailers
+2026-09-18,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),349.98,349.98,1,Memory Express,3,single reporting retailer
+2026-09-18,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),739.99,769.99,2,Canada Computers,17,multiple reporting retailers
+2026-09-18,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1489.99,1619.99,2,Canada Computers,15,multiple reporting retailers
+2026-09-18,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),349.99,404.99,2,Memory Express,2,multiple reporting retailers
+2026-09-18,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,694.99,3,Canada Computers,19,multiple reporting retailers
+2026-09-18,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1489.99,1489.99,1,Canada Computers,14,single reporting retailer
+2026-09-19,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,474.99,2,Canada Computers,6,multiple reporting retailers
+2026-09-19,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-19,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,377.49,2,Memory Express,1,multiple reporting retailers
+2026-09-19,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),349.98,349.98,1,Memory Express,3,single reporting retailer
+2026-09-19,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),739.99,769.99,2,Canada Computers,17,multiple reporting retailers
+2026-09-19,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1489.99,1619.99,2,Canada Computers,15,multiple reporting retailers
+2026-09-19,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),349.99,404.99,2,Memory Express,2,multiple reporting retailers
+2026-09-19,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,694.99,3,Canada Computers,18,multiple reporting retailers
+2026-09-19,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1489.99,1489.99,1,Canada Computers,13,single reporting retailer
+2026-09-20,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,474.99,2,Canada Computers,6,multiple reporting retailers
+2026-09-20,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-20,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,377.49,2,Memory Express,1,multiple reporting retailers
+2026-09-20,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),349.98,349.98,1,Memory Express,3,single reporting retailer
+2026-09-20,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),739.99,769.99,2,Canada Computers,18,multiple reporting retailers
+2026-09-20,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1489.99,1619.99,2,Canada Computers,15,multiple reporting retailers
+2026-09-20,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),349.99,404.99,2,Memory Express,2,multiple reporting retailers
+2026-09-20,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,694.99,3,Canada Computers,19,multiple reporting retailers
+2026-09-20,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1489.99,1489.99,1,Canada Computers,13,single reporting retailer
+2026-09-21,ram,ddr4-3200-32gb,DDR4-3200 32GB kit (2x16GB or 4x8GB),369.99,474.99,2,Canada Computers,6,multiple reporting retailers
+2026-09-21,ram,ddr4-3600-16gb,DDR4-3600 16GB kit (2x8GB),189.99,189.99,1,Memory Express,2,single reporting retailer
+2026-09-21,ram,ddr4-3600-32gb,DDR4-3600 32GB kit (2x16GB or 4x8GB),369.99,377.49,2,Memory Express,1,multiple reporting retailers
+2026-09-21,ram,ddr5-5600-16gb,DDR5-5600 16GB kit (2x8GB),349.98,349.98,1,Memory Express,3,single reporting retailer
+2026-09-21,ram,ddr5-5600-32gb,DDR5-5600 32GB kit (2x16GB),739.99,769.99,2,Canada Computers,18,multiple reporting retailers
+2026-09-21,ram,ddr5-5600-64gb,DDR5-5600 64GB kit (2x32GB or 4x16GB),1489.99,1619.99,2,Canada Computers,14,multiple reporting retailers
+2026-09-21,ram,ddr5-6000-16gb,DDR5-6000 16GB kit (2x8GB),349.99,404.99,2,Memory Express,2,multiple reporting retailers
+2026-09-21,ram,ddr5-6000-32gb,DDR5-6000 32GB kit (2x16GB),599.99,694.99,3,Canada Computers,19,multiple reporting retailers
+2026-09-21,ram,ddr5-6000-64gb,DDR5-6000 64GB kit (2x32GB or 4x16GB),1489.99,1489.99,1,Canada Computers,12,single reporting retailer

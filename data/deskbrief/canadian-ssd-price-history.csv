@@ -1,0 +1,400 @@
+observation_date,category,configuration,configuration_label,lowest_price_cad,median_retailer_low_cad,reporting_retailer_count,lowest_price_retailer,qualifying_listing_count_at_low,coverage_note
+2026-07-24,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,197.99,203.99,2,Best Buy Canada,10,multiple reporting retailers
+2026-07-24,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,369.79,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-07-24,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,8,multiple reporting retailers
+2026-07-24,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,472.99,485.99,2,Newegg Canada,10,multiple reporting retailers
+2026-07-24,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,2,multiple reporting retailers
+2026-07-24,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",292.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-07-25,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,209.99,2,Best Buy Canada; Newegg Canada,19,multiple reporting retailers
+2026-07-25,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,369.79,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-07-25,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,8,multiple reporting retailers
+2026-07-25,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,472.99,485.99,2,Newegg Canada,10,multiple reporting retailers
+2026-07-25,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,2,multiple reporting retailers
+2026-07-25,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",292.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-07-26,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,209.99,2,Best Buy Canada; Newegg Canada,19,multiple reporting retailers
+2026-07-26,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,369.79,379.98,3,Newegg Canada,15,multiple reporting retailers
+2026-07-26,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-07-26,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-07-26,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,2,multiple reporting retailers
+2026-07-26,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",292.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-07-27,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-07-27,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,369.79,379.98,3,Newegg Canada,13,multiple reporting retailers
+2026-07-27,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-07-27,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,472.99,485.99,2,Newegg Canada,10,multiple reporting retailers
+2026-07-27,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,2,multiple reporting retailers
+2026-07-27,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-07-28,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-07-28,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,369.79,379.98,3,Newegg Canada,13,multiple reporting retailers
+2026-07-28,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-07-28,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,472.99,485.99,2,Newegg Canada,9,multiple reporting retailers
+2026-07-28,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,2,multiple reporting retailers
+2026-07-28,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-07-29,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,9,multiple reporting retailers
+2026-07-29,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,359.79,379.98,3,Newegg Canada,13,multiple reporting retailers
+2026-07-29,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-07-29,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,472.99,485.99,2,Newegg Canada,9,multiple reporting retailers
+2026-07-29,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,2,multiple reporting retailers
+2026-07-29,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-07-30,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-07-30,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,359.79,379.98,3,Newegg Canada,13,multiple reporting retailers
+2026-07-30,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-07-30,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,472.99,485.99,2,Newegg Canada,9,multiple reporting retailers
+2026-07-30,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,2,multiple reporting retailers
+2026-07-30,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-07-31,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-07-31,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,359.79,379.98,3,Newegg Canada,13,multiple reporting retailers
+2026-07-31,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,8,multiple reporting retailers
+2026-07-31,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,472.99,498.99,3,Newegg Canada,10,multiple reporting retailers
+2026-07-31,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,2,multiple reporting retailers
+2026-07-31,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-01,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-08-01,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,359.79,379.98,3,Newegg Canada,13,multiple reporting retailers
+2026-08-01,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,8,multiple reporting retailers
+2026-08-01,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,472.99,498.99,3,Newegg Canada,10,multiple reporting retailers
+2026-08-01,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,2,multiple reporting retailers
+2026-08-01,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-02,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-08-02,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,359.79,379.98,3,Newegg Canada,12,multiple reporting retailers
+2026-08-02,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,8,multiple reporting retailers
+2026-08-02,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,472.99,498.99,3,Newegg Canada,10,multiple reporting retailers
+2026-08-02,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,2,multiple reporting retailers
+2026-08-02,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-03,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-08-03,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,359.79,379.98,3,Newegg Canada,12,multiple reporting retailers
+2026-08-03,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-08-03,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,498.99,3,Newegg Canada,10,multiple reporting retailers
+2026-08-03,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-03,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-04,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,9,multiple reporting retailers
+2026-08-04,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,359.79,379.98,3,Newegg Canada,12,multiple reporting retailers
+2026-08-04,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-08-04,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,498.99,3,Newegg Canada,9,multiple reporting retailers
+2026-08-04,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-04,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-05,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,9,multiple reporting retailers
+2026-08-05,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,349.79,379.98,3,Newegg Canada,12,multiple reporting retailers
+2026-08-05,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,589.79,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-08-05,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,498.99,3,Newegg Canada,9,multiple reporting retailers
+2026-08-05,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-05,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-06,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-08-06,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,349.79,379.98,3,Newegg Canada,12,multiple reporting retailers
+2026-08-06,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,589.79,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-08-06,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,498.99,3,Newegg Canada,9,multiple reporting retailers
+2026-08-06,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-06,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-07,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-08-07,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,349.79,379.98,3,Newegg Canada,12,multiple reporting retailers
+2026-08-07,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,589.79,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-08-07,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-07,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-07,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-08-08,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-08-08,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,349.79,379.98,3,Newegg Canada,13,multiple reporting retailers
+2026-08-08,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,499.99,709.00,3,Newegg Canada,9,multiple reporting retailers
+2026-08-08,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-08,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-08,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-08-09,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-08-09,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,349.79,379.98,3,Newegg Canada,13,multiple reporting retailers
+2026-08-09,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,589.79,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-08-09,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-09,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-09,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-08-10,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,10,multiple reporting retailers
+2026-08-10,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,367.99,379.98,3,Newegg Canada,12,multiple reporting retailers
+2026-08-10,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,589.79,709.00,3,Newegg Canada,8,multiple reporting retailers
+2026-08-10,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-10,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",134.98,170.99,3,Memory Express,1,multiple reporting retailers
+2026-08-10,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-08-11,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,11,multiple reporting retailers
+2026-08-11,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,367.99,379.98,3,Newegg Canada,13,multiple reporting retailers
+2026-08-11,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,7,multiple reporting retailers
+2026-08-11,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,8,multiple reporting retailers
+2026-08-11,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-11,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-12,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,12,multiple reporting retailers
+2026-08-12,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,367.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-12,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,7,multiple reporting retailers
+2026-08-12,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,8,multiple reporting retailers
+2026-08-12,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-12,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-13,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,12,multiple reporting retailers
+2026-08-13,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,367.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-13,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,7,multiple reporting retailers
+2026-08-13,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,7,multiple reporting retailers
+2026-08-13,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-13,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-14,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,13,multiple reporting retailers
+2026-08-14,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,367.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-14,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,7,multiple reporting retailers
+2026-08-14,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,262.99,281.49,2,Newegg Canada,8,multiple reporting retailers
+2026-08-14,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-14,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-14,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,11,multiple reporting retailers
+2026-08-15,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,13,multiple reporting retailers
+2026-08-15,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,367.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-15,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,7,multiple reporting retailers
+2026-08-15,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,262.99,281.49,2,Newegg Canada,8,multiple reporting retailers
+2026-08-15,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-15,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-15,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,11,multiple reporting retailers
+2026-08-16,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,12,multiple reporting retailers
+2026-08-16,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,367.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-16,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,7,multiple reporting retailers
+2026-08-16,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,262.99,281.49,2,Newegg Canada,7,multiple reporting retailers
+2026-08-16,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,8,multiple reporting retailers
+2026-08-16,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-16,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",297.99,397.00,3,Newegg Canada,11,multiple reporting retailers
+2026-08-17,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,210.84,2,Newegg Canada,11,multiple reporting retailers
+2026-08-17,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-17,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,7,multiple reporting retailers
+2026-08-17,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,262.99,281.49,2,Newegg Canada,7,multiple reporting retailers
+2026-08-17,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,8,multiple reporting retailers
+2026-08-17,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-17,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",282.99,397.00,3,Newegg Canada,11,multiple reporting retailers
+2026-08-18,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,219.99,2,Newegg Canada,10,multiple reporting retailers
+2026-08-18,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-18,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-18,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,262.99,281.49,2,Newegg Canada,6,multiple reporting retailers
+2026-08-18,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,8,multiple reporting retailers
+2026-08-18,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-18,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",282.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-19,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,219.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-19,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-19,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,5,multiple reporting retailers
+2026-08-19,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,262.99,281.49,2,Newegg Canada,6,multiple reporting retailers
+2026-08-19,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,8,multiple reporting retailers
+2026-08-19,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-19,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",282.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-20,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,219.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-20,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-20,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-20,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,262.99,281.49,2,Newegg Canada,7,multiple reporting retailers
+2026-08-20,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,8,multiple reporting retailers
+2026-08-20,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-20,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",282.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-21,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,209.99,219.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-21,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,15,multiple reporting retailers
+2026-08-21,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-21,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,262.99,281.49,2,Newegg Canada,7,multiple reporting retailers
+2026-08-21,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-21,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-21,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",282.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-22,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-22,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-22,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-22,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,262.99,281.49,2,Newegg Canada,8,multiple reporting retailers
+2026-08-22,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,10,multiple reporting retailers
+2026-08-22,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-22,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",282.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-23,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-23,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-23,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-23,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,262.99,281.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-23,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,10,multiple reporting retailers
+2026-08-23,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-23,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",282.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-24,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-24,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,13,multiple reporting retailers
+2026-08-24,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-24,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-24,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,10,multiple reporting retailers
+2026-08-24,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-24,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",284.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-25,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-25,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-25,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-25,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-25,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,10,multiple reporting retailers
+2026-08-25,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-25,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",284.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-26,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,10,multiple reporting retailers
+2026-08-26,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-26,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,654.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-26,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-26,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,10,multiple reporting retailers
+2026-08-26,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-26,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",284.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-08-27,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,10,multiple reporting retailers
+2026-08-27,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-27,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,654.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-27,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-27,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,489.49,2,Newegg Canada,10,multiple reporting retailers
+2026-08-27,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-27,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",284.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-08-28,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,11,multiple reporting retailers
+2026-08-28,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-28,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,609.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-28,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,299.99,3,Newegg Canada,9,multiple reporting retailers
+2026-08-28,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,479.99,498.99,3,Newegg Canada,10,multiple reporting retailers
+2026-08-28,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-28,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",284.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-08-29,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-29,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-29,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,609.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-29,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-29,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-29,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-29,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",284.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-08-30,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,10,multiple reporting retailers
+2026-08-30,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-30,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,609.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-30,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-30,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-30,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-30,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",284.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-08-31,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,11,multiple reporting retailers
+2026-08-31,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-08-31,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,609.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-08-31,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,9,multiple reporting retailers
+2026-08-31,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,9,multiple reporting retailers
+2026-08-31,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-08-31,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",284.99,397.00,3,Newegg Canada,13,multiple reporting retailers
+2026-09-01,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.99,224.99,2,Newegg Canada,11,multiple reporting retailers
+2026-09-01,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-09-01,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,609.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-09-01,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,9,multiple reporting retailers
+2026-09-01,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-01,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,149.49,4,Canada Computers,2,multiple reporting retailers
+2026-09-01,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",284.99,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-09-02,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.79,224.89,2,Newegg Canada,10,multiple reporting retailers
+2026-09-02,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-09-02,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,609.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-09-02,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,7,multiple reporting retailers
+2026-09-02,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-02,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,147.41,4,Canada Computers,2,multiple reporting retailers
+2026-09-02,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",283.59,397.00,3,Newegg Canada,14,multiple reporting retailers
+2026-09-03,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.79,224.89,2,Newegg Canada,10,multiple reporting retailers
+2026-09-03,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,12,multiple reporting retailers
+2026-09-03,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,609.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-09-03,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,7,multiple reporting retailers
+2026-09-03,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-03,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,147.41,4,Canada Computers,2,multiple reporting retailers
+2026-09-03,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",283.59,397.00,3,Newegg Canada,12,multiple reporting retailers
+2026-09-04,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.79,224.89,2,Newegg Canada,11,multiple reporting retailers
+2026-09-04,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-09-04,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,749.99,3,Newegg Canada,6,multiple reporting retailers
+2026-09-04,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,7,multiple reporting retailers
+2026-09-04,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-04,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,147.41,4,Canada Computers,2,multiple reporting retailers
+2026-09-04,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",283.59,340.29,2,Newegg Canada,12,multiple reporting retailers
+2026-09-05,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.79,224.89,2,Newegg Canada,11,multiple reporting retailers
+2026-09-05,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,15,multiple reporting retailers
+2026-09-05,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,664.99,3,Newegg Canada,6,multiple reporting retailers
+2026-09-05,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,8,multiple reporting retailers
+2026-09-05,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-05,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,147.41,4,Canada Computers,2,multiple reporting retailers
+2026-09-05,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",283.59,340.29,2,Newegg Canada,10,multiple reporting retailers
+2026-09-06,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.79,224.89,2,Newegg Canada,10,multiple reporting retailers
+2026-09-06,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-09-06,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,664.99,3,Newegg Canada,6,multiple reporting retailers
+2026-09-06,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,8,multiple reporting retailers
+2026-09-06,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-06,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,147.41,4,Canada Computers,2,multiple reporting retailers
+2026-09-06,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",283.59,340.29,2,Newegg Canada,10,multiple reporting retailers
+2026-09-07,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,174.99,202.49,2,Newegg Canada,12,multiple reporting retailers
+2026-09-07,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,355.99,379.98,3,Newegg Canada,15,multiple reporting retailers
+2026-09-07,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,664.99,3,Newegg Canada,6,multiple reporting retailers
+2026-09-07,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,8,multiple reporting retailers
+2026-09-07,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-07,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,147.41,4,Canada Computers,2,multiple reporting retailers
+2026-09-07,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",283.59,340.29,2,Newegg Canada,10,multiple reporting retailers
+2026-09-08,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.79,224.89,2,Newegg Canada,10,multiple reporting retailers
+2026-09-08,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,369.79,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-09-08,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,664.99,3,Newegg Canada,6,multiple reporting retailers
+2026-09-08,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,7,multiple reporting retailers
+2026-09-08,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-08,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,147.41,4,Canada Computers,2,multiple reporting retailers
+2026-09-08,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",283.59,340.29,2,Newegg Canada,11,multiple reporting retailers
+2026-09-09,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.79,224.89,2,Newegg Canada,10,multiple reporting retailers
+2026-09-09,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,369.79,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-09-09,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,599.99,664.99,3,Newegg Canada,6,multiple reporting retailers
+2026-09-09,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,7,multiple reporting retailers
+2026-09-09,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-09,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,147.41,4,Canada Computers,2,multiple reporting retailers
+2026-09-09,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",283.59,340.29,2,Newegg Canada,11,multiple reporting retailers
+2026-09-10,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,219.79,224.89,2,Newegg Canada,10,multiple reporting retailers
+2026-09-10,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,369.79,379.98,3,Newegg Canada,14,multiple reporting retailers
+2026-09-10,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,649.99,664.99,3,Newegg Canada,6,multiple reporting retailers
+2026-09-10,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,274.99,287.49,2,Newegg Canada,9,multiple reporting retailers
+2026-09-10,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,484.99,491.99,2,Newegg Canada,8,multiple reporting retailers
+2026-09-10,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,152.99,4,Canada Computers,2,multiple reporting retailers
+2026-09-10,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",284.99,341.00,2,Newegg Canada,11,multiple reporting retailers
+2026-09-11,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,242.00,242.00,1,Best Buy Canada,9,single reporting retailer
+2026-09-11,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,394.99,2,Memory Express,1,multiple reporting retailers
+2026-09-11,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,1082.49,2,Best Buy Canada,8,multiple reporting retailers
+2026-09-11,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,329.99,329.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-11,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,549.99,549.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-11,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-11,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer
+2026-09-12,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,229.99,229.99,1,Best Buy Canada,9,single reporting retailer
+2026-09-12,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,389.49,2,Memory Express,1,multiple reporting retailers
+2026-09-12,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,1082.49,2,Best Buy Canada,9,multiple reporting retailers
+2026-09-12,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,299.99,299.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-12,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-12,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-12,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer
+2026-09-13,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,229.99,229.99,1,Best Buy Canada,9,single reporting retailer
+2026-09-13,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,389.49,2,Memory Express,1,multiple reporting retailers
+2026-09-13,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,1082.49,2,Best Buy Canada,9,multiple reporting retailers
+2026-09-13,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,299.99,299.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-13,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-13,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-13,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer
+2026-09-14,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,229.99,229.99,1,Best Buy Canada,9,single reporting retailer
+2026-09-14,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,389.49,2,Memory Express,1,multiple reporting retailers
+2026-09-14,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,1082.49,2,Best Buy Canada,9,multiple reporting retailers
+2026-09-14,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,299.99,299.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-14,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-14,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-14,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer
+2026-09-15,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,229.99,229.99,1,Best Buy Canada,10,single reporting retailer
+2026-09-15,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,389.49,2,Memory Express,1,multiple reporting retailers
+2026-09-15,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,1082.49,2,Best Buy Canada,9,multiple reporting retailers
+2026-09-15,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,299.99,299.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-15,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-15,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-15,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer
+2026-09-16,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,229.99,229.99,1,Best Buy Canada,9,single reporting retailer
+2026-09-16,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,389.49,2,Memory Express,1,multiple reporting retailers
+2026-09-16,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,1082.49,2,Best Buy Canada,8,multiple reporting retailers
+2026-09-16,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,299.99,299.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-16,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-16,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-16,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer
+2026-09-17,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,229.99,229.99,1,Best Buy Canada,10,single reporting retailer
+2026-09-17,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,389.49,2,Memory Express,1,multiple reporting retailers
+2026-09-17,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,1082.49,2,Best Buy Canada,9,multiple reporting retailers
+2026-09-17,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,299.99,299.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-17,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-17,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-17,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer
+2026-09-18,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,229.99,229.99,1,Best Buy Canada,9,single reporting retailer
+2026-09-18,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,389.49,2,Memory Express,1,multiple reporting retailers
+2026-09-18,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,664.99,1,Best Buy Canada,9,single reporting retailer
+2026-09-18,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,299.99,299.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-18,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-18,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-18,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer
+2026-09-19,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,229.99,229.99,1,Best Buy Canada,9,single reporting retailer
+2026-09-19,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,389.49,2,Memory Express,1,multiple reporting retailers
+2026-09-19,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,664.99,1,Best Buy Canada,8,single reporting retailer
+2026-09-19,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,299.99,299.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-19,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-19,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-19,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer
+2026-09-20,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,229.99,229.99,1,Best Buy Canada,10,single reporting retailer
+2026-09-20,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,389.49,2,Memory Express,1,multiple reporting retailers
+2026-09-20,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,664.99,1,Best Buy Canada,8,single reporting retailer
+2026-09-20,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,299.99,299.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-20,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-20,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-20,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer
+2026-09-21,ssd,nvme-gen4-1tb,NVMe PCIe Gen4 1TB,229.99,229.99,1,Best Buy Canada,10,single reporting retailer
+2026-09-21,ssd,nvme-gen4-2tb,NVMe PCIe Gen4 2TB,379.98,389.49,2,Memory Express,1,multiple reporting retailers
+2026-09-21,ssd,nvme-gen4-4tb,NVMe PCIe Gen4 4TB,664.99,664.99,1,Best Buy Canada,8,single reporting retailer
+2026-09-21,ssd,nvme-gen5-1tb,NVMe PCIe Gen5 1TB,299.99,299.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-21,ssd,nvme-gen5-2tb,NVMe PCIe Gen5 2TB,498.99,498.99,1,Best Buy Canada,3,single reporting retailer
+2026-09-21,ssd,sata-2-5-1tb,"SATA 2.5"" 1TB",89.99,134.98,3,Canada Computers,2,multiple reporting retailers
+2026-09-21,ssd,sata-2-5-2tb,"SATA 2.5"" 2TB",397.00,397.00,1,Best Buy Canada,3,single reporting retailer

@@ -1,0 +1,86 @@
+{
+  "_说明": "大盘/细节的数据源配置。zol: 中关村在线产品列表页（取参考价）；include/exclude 为对产品名的正则；max_items 为每个大盘最多跟踪的型号数；index_mode 为 median（大盘=各型号中位价，默认）或 points（大盘=各型号相对首次价格的平均涨跌，首日=1000 点，适合型号价位差异大的系列）。dram: DRAMeXchange 首页现货价表中的条目名。",
+  "power": { "auto_sleep": true, "idle_minutes": 20,
+    "_说明": "计划任务采集完后，如果已经 idle_minutes 分钟没有键盘鼠标操作，就让电脑睡眠，等下一次计划任务唤醒。auto_sleep 改成 false 即关闭。" },
+  "zol": [],
+  "_zol停用": "ZOL 参考价基本不随市场变动（显卡、内存都明显偏低），已全部改用什么值得买的京东好价。",
+  "smzdm": {
+    "_说明": "国内：什么值得买「发现」各分类频道的好价爆料，只取京东（不含全球购）。大盘 = 近 window_days 天京东好价的中位数，细节 = 各品牌的中位数。好价是促销价，偏向价格下沿。标题同时匹配多个条目的爆料（分不清价格对应哪款）不用。对方有验证码防护：抓取间隔放长，遇到验证码立即停止，不绕过。",
+    "url": "https://faxian.smzdm.com/fenlei/xianka/",
+    "pages": 3,
+    "gap": 20,
+    "_频率": "什么值得买大约十几个请求就会弹验证码：每天显卡最多 3 页、其他分类各最多 2 页，页间隔 20 秒；通常每类 1 页就能接上前一天。",
+    "window_days": 7,
+    "retry_budget": 4,
+    "retry_budget_max": 10,
+    "retry_gap": 40,
+    "retry_backoff_min": 90,
+    "_重试": "开机期间每 30 分钟运行 scraper/smzdm_retry.py：每次最多 4 个请求、间隔 40 秒；遇到验证码暂停 90 分钟。",
+    "malls": ["京东"],
+    "_型号": "显卡型号统一在 scraper/gpus.json 里维护；内存 / 固态 / CPU 在下面 feeds 里",
+    "feeds": [
+      { "key": "neicun", "url": "https://faxian.smzdm.com/fenlei/neicun/", "pages": 2,
+        "exclude": "笔记本|SO-?DIMM|二手|拆机|服务器|ECC|RDIMM|主机|整机|套装电脑",
+        "items": [
+          { "cat": "ddr5", "group": "内存", "name": "DDR5 内存", "code": "DDR5", "spec": "DDR5-6000 16G×2 套条", "compare": "ddr5",
+            "include": ["DDR5", "6000", "16\\s*G[B]?\\s*[*×xX✕]\\s*2|2\\s*[*×xX✕]\\s*16\\s*G"], "min_price": 300, "max_price": 6000 },
+          { "cat": "ddr4", "group": "内存", "name": "DDR4 内存", "code": "DDR4", "spec": "DDR4-3200 16G×2 套条", "compare": "ddr4",
+            "include": ["DDR4", "3200", "16\\s*G[B]?\\s*[*×xX✕]\\s*2|2\\s*[*×xX✕]\\s*16\\s*G"], "min_price": 150, "max_price": 3000 }
+        ] },
+      { "key": "gutaiyingpan", "url": "https://faxian.smzdm.com/fenlei/gutaiyingpan/", "pages": 2,
+        "exclude": "移动|外置|USB|Type-?C|SATA|硬盘盒|二手|拆机|(?<!\\d)(1|4|8)\\s*T|512\\s*G|256\\s*G|企业级|U\\.2",
+        "items": [
+          { "cat": "ssd2t", "group": "硬盘", "name": "2TB 固态", "code": "SSD-2T", "spec": "M.2 NVMe 2TB", "compare": "ssd2t",
+            "include": ["(?<!\\d)2\\s*T(B)?", "NVMe|M\\.2|PCIe|PCI-E"], "min_price": 300, "max_price": 5000 }
+        ] },
+      { "key": "cpu", "url": "https://faxian.smzdm.com/fenlei/cpu/", "pages": 2,
+        "exclude": "主板|板U|套装|套餐|整机|主机|散热|二手|拆机|笔记本",
+        "items": [
+          { "cat": "r5z5", "group": "处理器", "name": "锐龙 5（Zen 5）", "code": "R5-Z5", "spec": "AMD Ryzen 5 9000 系列（9600X / 9600 / 9500F）", "compare": "r5z5",
+            "include": "(?<!\\d)9(500F|600X?)(?![\\dX])", "min_price": 400, "max_price": 4000 },
+          { "cat": "r7z5", "group": "处理器", "name": "锐龙 7（Zen 5）", "code": "R7-Z5", "spec": "AMD Ryzen 7 9000 系列（9700X / 9800X3D / 9850X3D）", "compare": "r7z5",
+            "include": "(?<!\\d)9(700X|800X3D|850X3D)(?!\\d)", "min_price": 800, "max_price": 8000 },
+          { "cat": "r9z5", "group": "处理器", "name": "锐龙 9（Zen 5）", "code": "R9-Z5", "spec": "AMD Ryzen 9 9000 系列（9900X / 9950X / X3D）", "compare": "r9z5",
+            "include": "(?<!\\d)9(900X3D|900X|950X3D|950X)(?!\\d)", "min_price": 1500, "max_price": 12000 },
+          { "cat": "u5al", "group": "处理器", "name": "酷睿 Ultra 5", "code": "U5-200S", "spec": "Intel Core Ultra 5 200S（225 / 235 / 245K / 250K）", "compare": "u5al",
+            "include": "Ultra\\s*5\\s*2[2-5]\\d", "min_price": 400, "max_price": 5000 },
+          { "cat": "u7al", "group": "处理器", "name": "酷睿 Ultra 7", "code": "U7-200S", "spec": "Intel Core Ultra 7 200S（265K / 265KF / 270K）", "compare": "u7al",
+            "include": "Ultra\\s*7\\s*2[6-7]\\d", "min_price": 800, "max_price": 7000 },
+          { "cat": "u9al", "group": "处理器", "name": "酷睿 Ultra 9", "code": "U9-200S", "spec": "Intel Core Ultra 9 200S（285K / 285）", "compare": "u9al",
+            "include": "Ultra\\s*9\\s*28\\d", "min_price": 1500, "max_price": 10000 }
+        ] }
+    ]
+  },
+  "bestbuy_ca": {
+    "_说明": "加拿大内存 / 固态 / CPU 每日现价：bestbuy.ca 站内搜索接口（robots.txt 只禁止网页搜索页，不禁止 /api/）。自营商品很少，所以包含第三方卖家，大盘取中位数。include 里的正则全部要匹配，exclude 排除整机/笔记本等。",
+    "gap": 4,
+    "max_items": 20,
+    "include_marketplace": true,
+    "exclude": "laptop|notebook|SO-?DIMM|desktop computer|desktop pc|gaming pc|tower|all-in-one|bundle|refurb|open box|external|portable|enclosure|\\bUSB\\b",
+    "items": [
+      { "key": "ddr5",  "query": "DDR5 32GB 6000 desktop memory", "include": ["DDR5", "32\\s*GB", "6000", "2\\s*x\\s*16|16\\s*GB\\s*x\\s*2"], "min_price": 80, "max_price": 3000 },
+      { "key": "ddr4",  "query": "DDR4 32GB 3200 desktop memory", "include": ["DDR4", "32\\s*GB", "3200", "2\\s*x\\s*16|16\\s*GB\\s*x\\s*2"], "min_price": 40, "max_price": 2000 },
+      { "key": "ssd2t", "query": "2TB NVMe M.2 internal SSD", "include": ["2\\s*TB", "NVMe|M\\.2"], "min_price": 80, "max_price": 3000 },
+      { "key": "r5z5",  "query": "AMD Ryzen 5 9600X processor", "include": ["Ryzen\\s*5\\s*9\\d{3}"], "min_price": 100, "max_price": 1500 },
+      { "key": "r7z5",  "query": "AMD Ryzen 7 9800X3D 9700X processor", "include": ["Ryzen\\s*7\\s*9\\d{3}"], "min_price": 150, "max_price": 2000 },
+      { "key": "r9z5",  "query": "AMD Ryzen 9 9950X processor", "include": ["Ryzen\\s*9\\s*9\\d{3}"], "min_price": 200, "max_price": 3000 },
+      { "key": "u5al",  "query": "Intel Core Ultra 5 245K processor", "include": ["Ultra\\s*5\\s*2\\d{2}"], "min_price": 100, "max_price": 1500 },
+      { "key": "u7al",  "query": "Intel Core Ultra 7 265K processor", "include": ["Ultra\\s*7\\s*2\\d{2}"], "min_price": 150, "max_price": 2000 },
+      { "key": "u9al",  "query": "Intel Core Ultra 9 285K processor", "include": ["Ultra\\s*9\\s*2\\d{2}"], "min_price": 200, "max_price": 3000 }
+    ]
+  },
+  "gpuprix": {
+    "_说明": "美国 / 加拿大显卡零售价，来自 gpuprix.com 型号页（一页包含各地区各商店的报价）。只取全新、有货、非套装的报价；大盘 = 有货报价的中位价。compare 用来和国内同型号做跨地区对比。",
+    "regions": ["US", "CA"],
+    "max_items": 20,
+    "_型号": "显卡型号统一在 scraper/gpus.json 里维护"
+  },
+  "dram": [
+    { "id": "spot-ddr5-16gb",   "name": "DDR5 16Gb 颗粒",   "code": "DDR5-16Gb", "spec": "DRAMeXchange 现货 · DDR5 16Gb (2Gx8) 4800/5600", "match": ["DDR5 16Gb (2Gx8) 4800/5600", "DDR5 16G (2Gx8) 4800/5600"] },
+    { "id": "spot-ddr4-16gb",   "name": "DDR4 16Gb 颗粒",   "code": "DDR4-16Gb", "spec": "DRAMeXchange 现货 · DDR4 16Gb (2Gx8) 3200",      "match": "DDR4 16Gb (2Gx8) 3200" },
+    { "id": "spot-ddr5-udimm",  "name": "DDR5 16GB 内存条", "code": "DDR5-UDIMM", "spec": "DRAMeXchange 现货 · DDR5 UDIMM 16GB 4800/5600", "match": "DDR5 UDIMM 16GB 4800/5600" },
+    { "id": "spot-ddr4-udimm",  "name": "DDR4 16GB 内存条", "code": "DDR4-UDIMM", "spec": "DRAMeXchange 现货 · DDR4 UDIMM 16GB 3200",      "match": "DDR4 UDIMM 16GB 3200" },
+    { "id": "spot-gddr6",       "name": "GDDR6 8Gb 显存",   "code": "GDDR6-8Gb", "spec": "DRAMeXchange 现货 · GDDR6 8Gb 显存颗粒（周更）",  "match": "GDDR6 8Gb" },
+    { "id": "spot-nand-512",    "name": "NAND 512Gb TLC",   "code": "TLC-512Gb", "spec": "DRAMeXchange 现货 · 512Gb TLC 晶圆（周更，固态硬盘上游）", "match": "512Gb TLC" }
+  ]
+}
