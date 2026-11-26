@@ -7,13 +7,13 @@
    "oldest": "2026-07-03"
   },
   "neicun": {
-   "next": 54,
+   "next": 63,
    "done": false,
    "overlap": true,
-   "oldest": "2026-11-01"
+   "oldest": "2026-10-27"
   }
  },
- "last_run": "2026-11-26 16:16",
+ "last_run": "2026-11-26 16:38",
  "last_deploy": 1795670789.525738,
  "budget": 10
 }
