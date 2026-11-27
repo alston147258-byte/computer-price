@@ -20,17 +20,27 @@ jobs:
       TZ: America/Vancouver
       PYTHONUTF8: '1'
     steps:
+      # 取开始运行时最新的 main（排队期间另一个任务可能已经提交了数据），不是触发时的旧版本
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
       - name: 国内重试
         run: python scraper/smzdm_retry.py
+      - name: 更新进度页
+        run: python scraper/write_status.py
       - name: 保存数据到仓库
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data
-          git diff --cached --quiet || git commit -m "国内重试 $(date '+%F %H:%M')"
-          git pull --rebase -X ours || true
-          git push
+          git add -A data README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "国内重试 $(date '+%F %H:%M')"
+          # rebase 时 -X theirs = 冲突处保留本次运行的结果（本次是从最新 main 开始的，包含之前所有数据）
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+            sleep 10
+          done
+          exit 1

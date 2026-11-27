@@ -1,8 +1,8 @@
 name: 每日采集
-# 每天温哥华时间 19:00 左右（GitHub 定时任务可能晚几分钟到半小时）
+# 每天温哥华时间 19:00 左右（GitHub 定时任务可能晚几分钟到半小时；整点最拥挤，所以错开到 :07）
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '7 3 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -21,18 +21,30 @@ jobs:
       PYTHONUTF8: '1'
       NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
     steps:
+      # 取开始运行时最新的 main（排队期间重试任务可能已经提交了数据），不是触发时的旧版本
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
       - run: pip install pillow
       - name: 采集 + 发布网站
         run: python scraper/fetch_prices.py
+      - name: 更新进度页
+        if: always()
+        run: python scraper/write_status.py
       - name: 保存数据到仓库
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data scraper
-          git diff --cached --quiet || git commit -m "每日采集 $(date +%F)"
-          git pull --rebase -X ours || true
-          git push
+          git add -A data scraper README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "每日采集 $(date +%F)"
+          # rebase 时 -X theirs = 冲突处保留本次运行的结果（本次是从最新 main 开始的，包含之前所有数据）
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+            sleep 10
+          done
+          exit 1
