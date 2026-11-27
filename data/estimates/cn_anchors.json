@@ -1,0 +1,76 @@
+{
+  "_about": "国内 30 系早期价格锚点：从当时的新闻报道 / 知乎每日显卡行情摘录（多为京东最低价或渠道现货价，不同品牌差价大）。lo/hi 为报道里的价格或区间；只有一个价时 lo=hi。build_estimates.py 用这些锚点按月插值出估算区间。",
+  "msrp": {
+    "3050":   {"day": "2022-01-27", "price": 1899,  "url": "https://www.ithome.com/0/596/714.htm"},
+    "3060":   {"day": "2021-02-25", "price": 2499,  "url": "https://diy.zol.com.cn/771/7716731.html"},
+    "3060ti": {"day": "2020-12-02", "price": 2999,  "url": "https://tech.sina.com.cn/digi/2020-12-02/doc-iiznezxs4829411.shtml"},
+    "3070":   {"day": "2020-10-29", "price": 3899,  "url": "https://diy.zol.com.cn/771/7716731.html"},
+    "3070ti": {"day": "2021-06-10", "price": 4799,  "url": "https://diy.zol.com.cn/771/7716731.html"},
+    "3080":   {"day": "2020-09-17", "price": 5499,  "url": "https://www.qbitai.com/2020/09/18601.html"}
+  },
+  "anchors": [
+    {"day": "2020-09-20", "m": "3080", "lo": 7000, "hi": 8000, "url": "https://www.qbitai.com/2020/09/18601.html", "note": "首发被抢空，主流电商 / 淘宝现货 7000–8000 元"},
+
+    {"day": "2021-02-01", "m": "3060ti", "lo": 5000, "hi": 5500, "url": "https://diy.zol.com.cn/761/7616139.html", "note": "新年攒机报价：较首发涨 2000–2500 元"},
+    {"day": "2021-02-01", "m": "3070", "lo": 5400, "hi": 5900, "url": "https://diy.zol.com.cn/761/7616139.html", "note": "新年攒机报价：较首发涨 1500–2000 元"},
+    {"day": "2021-02-01", "m": "3080", "lo": 8500, "hi": 9500, "url": "https://diy.zol.com.cn/761/7616139.html", "note": "新年攒机报价：较首发涨 3000–4000 元"},
+
+    {"day": "2021-03-26", "m": "3080", "lo": 13000, "hi": 13000, "url": "https://digi.china.com/digi/20210326/20210326739104.html", "note": "市场报价约 1.3 万元"},
+    {"day": "2021-03-26", "m": "3070", "lo": 9000, "hi": 9000, "url": "https://digi.china.com/digi/20210326/20210326739104.html", "note": "市场报价约 9000 元"},
+    {"day": "2021-03-26", "m": "3060ti", "lo": 8800, "hi": 8800, "url": "https://digi.china.com/digi/20210326/20210326739104.html", "note": "市场报价约 8800 元"},
+
+    {"day": "2021-04-22", "m": "3060ti", "lo": 10000, "hi": 11000, "url": "https://www.bbtnews.com.cn/2021/0422/394066.shtml", "note": "京东售价 1.1 万元左右（矿潮高点）"},
+    {"day": "2021-04-22", "m": "3080", "lo": 16500, "hi": 19000, "url": "https://www.bbtnews.com.cn/2021/0422/394066.shtml", "note": "京东 3080 多在 1.7–1.9 万元"},
+    {"day": "2021-05-05", "m": "3060", "lo": 6500, "hi": 7500, "url": "https://www.mycaijing.com/article/detail/437211?source_id=40", "note": "5 月初 3060 价格翻了三倍"},
+    {"day": "2021-05-05", "m": "3070", "lo": 10000, "hi": 11000, "url": "https://www.mycaijing.com/article/detail/437211?source_id=40", "note": "5 月初 3070 破万"},
+
+    {"day": "2021-06-18", "m": "3060", "lo": 5200, "hi": 6000, "url": "https://www.mycaijing.com/article/detail/437211?source_id=40", "note": "618 前后京东 / 天猫 5200–6000 元，京东自营 5599"},
+
+    {"day": "2021-08-16", "m": "3060", "lo": 3750, "hi": 4400, "url": "https://news.qq.com/rain/a/20210816A0839R00", "note": "8 月中回涨：批发 3600–3750，经销商淘宝店 4400"},
+    {"day": "2021-08-16", "m": "3060ti", "lo": 4500, "hi": 5000, "url": "https://news.qq.com/rain/a/20210816A0839R00", "note": "8 月中回涨：批发 4400–4500，零售逼近 5000"},
+    {"day": "2021-08-20", "m": "3080", "lo": 12000, "hi": 15000, "url": "https://news.mydrivers.com/1/778/778451.htm", "note": "比特币回升，3080 一夜重回 1.5 万元（店铺标价）"},
+
+    {"day": "2021-10-10", "m": "3060", "lo": 4899, "hi": 4899, "url": "https://zhuanlan.zhihu.com/p/419902920", "note": "京东自营 耕升 3060 追风"},
+    {"day": "2021-10-10", "m": "3060ti", "lo": 5699, "hi": 5699, "url": "https://zhuanlan.zhihu.com/p/419902920", "note": "京东自营 影驰 3060Ti 金属大师"},
+    {"day": "2021-10-10", "m": "3070", "lo": 5899, "hi": 6499, "url": "https://zhuanlan.zhihu.com/p/419902920", "note": "京东自营最低价由 6499 降到 5899"},
+    {"day": "2021-10-10", "m": "3080", "lo": 8299, "hi": 8299, "url": "https://zhuanlan.zhihu.com/p/419902920", "note": "京东自营 影驰 3080 金属大师"},
+
+    {"day": "2021-12-08", "m": "3060", "lo": 4299, "hi": 4299, "url": "https://zhuanlan.zhihu.com/p/442677501", "note": "京东 七彩虹 3060 Ultra W"},
+    {"day": "2021-12-08", "m": "3060ti", "lo": 5199, "hi": 5199, "url": "https://zhuanlan.zhihu.com/p/442677501", "note": "京东 七彩虹 3060Ti Mini OC"},
+    {"day": "2021-12-08", "m": "3070", "lo": 5899, "hi": 5899, "url": "https://zhuanlan.zhihu.com/p/442677501", "note": "京东 影驰 3070 金属大师"},
+    {"day": "2021-12-08", "m": "3070ti", "lo": 6899, "hi": 6899, "url": "https://zhuanlan.zhihu.com/p/442677501", "note": "京东最低价"},
+    {"day": "2021-12-08", "m": "3080", "lo": 8699, "hi": 8699, "url": "https://zhuanlan.zhihu.com/p/442677501", "note": "京东 影驰 3080 黑将"},
+    {"day": "2021-12-30", "m": "3060", "lo": 4099, "hi": 4300, "url": "https://zhuanlan.zhihu.com/p/451442208", "note": "一直在 4300 往上，最低见过 4099"},
+
+    {"day": "2022-03-08", "m": "3080", "lo": 5999, "hi": 5999, "url": "https://zhuanlan.zhihu.com/p/477327905", "note": "3080 跌至 5999"},
+    {"day": "2022-04-24", "m": "3080", "lo": 5499, "hi": 5499, "url": "https://news.qq.com/rain/a/20220424A04G5T00", "note": "京东最低价回到首发价"},
+    {"day": "2022-04-24", "m": "3070", "lo": 3899, "hi": 3899, "url": "https://news.qq.com/rain/a/20220424A04G5T00", "note": "京东最低价回到首发价"},
+    {"day": "2022-04-24", "m": "3060ti", "lo": 2999, "hi": 2999, "url": "https://news.qq.com/rain/a/20220424A04G5T00", "note": "京东最低价回到首发价"},
+    {"day": "2022-05-17", "m": "3070", "lo": 3649, "hi": 3649, "url": "https://zhuanlan.zhihu.com/p/515439096", "note": "3070 降至 3649"},
+    {"day": "2022-05-17", "m": "3080", "lo": 4899, "hi": 4899, "url": "https://zhuanlan.zhihu.com/p/515439096", "note": "3080 降到 4899"},
+    {"day": "2022-07-02", "m": "3060", "lo": 3099, "hi": 3099, "url": "https://www.qbitai.com/2022/07/35703.html", "note": "某款 3060 由 5999 降至 3099"},
+    {"day": "2022-07-02", "m": "3070", "lo": 3749, "hi": 3749, "url": "https://www.qbitai.com/2022/07/35703.html", "note": "京东自营低至 3749"},
+    {"day": "2022-07-02", "m": "3070ti", "lo": 4349, "hi": 4349, "url": "https://www.qbitai.com/2022/07/35703.html", "note": "京东自营低至 4349"},
+    {"day": "2022-07-02", "m": "3080", "lo": 5399, "hi": 5399, "url": "https://www.qbitai.com/2022/07/35703.html", "note": "京东自营低至 5399"},
+
+    {"day": "2022-10-04", "m": "3060", "lo": 2419, "hi": 2419, "url": "https://zhuanlan.zhihu.com/p/570457839", "note": "京东"},
+    {"day": "2022-10-04", "m": "3060ti", "lo": 3019, "hi": 3019, "url": "https://zhuanlan.zhihu.com/p/570457839", "note": "京东"},
+    {"day": "2022-10-04", "m": "3070", "lo": 3599, "hi": 3599, "url": "https://zhuanlan.zhihu.com/p/570457839", "note": "京东"},
+    {"day": "2022-10-04", "m": "3080", "lo": 4999, "hi": 4999, "url": "https://zhuanlan.zhihu.com/p/570457839", "note": "京东 3080 10G"},
+    {"day": "2022-10-26", "m": "3060", "lo": 2469, "hi": 2469, "url": "https://zhuanlan.zhihu.com/p/577283338", "note": "京东"},
+    {"day": "2022-10-26", "m": "3060ti", "lo": 2899, "hi": 2899, "url": "https://zhuanlan.zhihu.com/p/577283338", "note": "京东"},
+    {"day": "2022-10-26", "m": "3070", "lo": 3699, "hi": 3699, "url": "https://zhuanlan.zhihu.com/p/577283338", "note": "京东"},
+    {"day": "2022-11-12", "m": "3060ti", "lo": 2799, "hi": 2799, "url": "https://zhuanlan.zhihu.com/p/582692594", "note": "京东"},
+    {"day": "2022-11-12", "m": "3070", "lo": 3499, "hi": 3499, "url": "https://zhuanlan.zhihu.com/p/582692594", "note": "京东"},
+    {"day": "2022-11-12", "m": "3080", "lo": 5399, "hi": 5399, "url": "https://zhuanlan.zhihu.com/p/582692594", "note": "京东 微星"},
+
+    {"day": "2023-01-05", "m": "3060ti", "lo": 2949, "hi": 2949, "url": "https://zhuanlan.zhihu.com/p/596646625", "note": "京东"},
+    {"day": "2023-01-12", "m": "3060", "lo": 2149, "hi": 2149, "url": "https://zhuanlan.zhihu.com/p/598396359", "note": "京东"},
+    {"day": "2023-01-12", "m": "3070ti", "lo": 4099, "hi": 4099, "url": "https://zhuanlan.zhihu.com/p/598396359", "note": "京东"},
+    {"day": "2023-01-12", "m": "3080", "lo": 5099, "hi": 5199, "url": "https://zhuanlan.zhihu.com/p/598396359", "note": "京东 1 月 12 日 5199，17 日 5099"},
+    {"day": "2023-03-24", "m": "3070", "lo": 3449, "hi": 3449, "url": "https://zhuanlan.zhihu.com/p/616534423", "note": "京东"},
+    {"day": "2023-07-20", "m": "3060", "lo": 1749, "hi": 1749, "url": "https://post.smzdm.com/p/apvee07x/", "note": "京东到手价（含券）"},
+    {"day": "2023-07-20", "m": "3060ti", "lo": 1849, "hi": 1849, "url": "https://post.smzdm.com/p/apvee07x/", "note": "京东到手价（含券）"},
+    {"day": "2023-07-20", "m": "3070", "lo": 2149, "hi": 2149, "url": "https://post.smzdm.com/p/apvee07x/", "note": "京东到手价（含券）"}
+  ]
+}

@@ -69,6 +69,19 @@
   };
   categories.sort((a, b) => gi(a) - gi(b) || ki(a) - ki(b));
 
+  // 早期估算区间（data/estimates.js，非实测）：挂到对应大盘上
+  const EST = window.PRICE_ESTIMATES;
+  if (EST && EST.entities) {
+    for (const [id, v] of Object.entries(EST.entities)) {
+      const c = byId[id];
+      if (!c || c.kind !== 'index') continue;
+      const first = c.bars[0].day;
+      c.est = (v.bands || []).filter((b) => b.d < first)
+        .map((b) => ({ t: parseDay(b.d), day: b.d, lo: b.lo, hi: b.hi, k: b.k, src: b.src || [] }));
+      if (v.msrp) c.msrp = { t: parseDay(v.msrp.d), day: v.msrp.d, p: v.msrp.p, src: v.msrp.src };
+    }
+  }
+
   let latestDay = null;
   for (const c of categories) {
     const d = c.bars[c.bars.length - 1].day;
@@ -83,5 +96,6 @@
     categories, items, byId, updated: raw.updated, latestDay, runs: raw.runs || [],
     fx, fxDay, fxLatest: fxDay ? fx[fxDay] : null,
     health: raw.health || {},
+    estSources: (EST && EST.sources) || [],
   };
 })();

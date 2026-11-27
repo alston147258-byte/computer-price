@@ -47,6 +47,10 @@ def build():
     os.makedirs(os.path.join(SITE, 'data'), exist_ok=True)
     for fn in FILES:
         shutil.copy2(os.path.join(ROOT, fn), os.path.join(SITE, fn))
+    # 早期估算区间（scraper/build_estimates.py 生成，手工维护，不随每日采集变化）
+    est = os.path.join(ROOT, 'data', 'estimates.js')
+    if os.path.exists(est):
+        shutil.copy2(est, os.path.join(SITE, 'data', 'estimates.js'))
     out = os.path.join(SITE, 'data', 'prices.js')
     tmp = out + '.tmp'
     with open(tmp, 'w', encoding='utf-8') as f:

@@ -82,6 +82,7 @@
         加拿大显卡 / 固态 2026 年 7 月下旬到 9 月下旬：<a class="q-link" href="https://thedeskbrief.com/canadian-tech-price-index/" target="_blank" rel="noopener">The Desk Brief · Canadian Tech Price Index</a>（Best Buy Canada、Canada Computers、Newegg Canada、Memory Express 四家当日最低价的中位数；原文件已下线，取自互联网档案馆存档）。
         美国 / 加拿大老型号（30 系、RX 6000 等）2025 年下半年起的月度点：<a class="q-link" href="https://bestvaluegpu.com/" target="_blank" rel="noopener">BestValueGPU</a> 页面上的 Amazon 新卡月均价（取自互联网档案馆存档，已剔除明显异常值；Amazon 价格可能含第三方卖家，与其他来源口径不同）。
         各地区分开统计，互不混合。国内显卡 / 内存 / CPU / 固态：什么值得买「发现」频道里的京东好价爆料（人民币，含增值税，偏向促销价），大盘价 = 近 7 天京东好价中位数，细节 = 各品牌中位数；部分型号还有媒体报道整理的价格点（口径不一，悬停可看出处）。美国 / 加拿大显卡：GPUPrix 汇总的各商店有货全新报价（美元 / 加元，不含销售税，含 Amazon 第三方卖家），大盘价 = 有货报价中位价；首发以来的历史为 PCPartPicker 价格趋势图的日均价读数（精度约 ±1 像素）。美国 / 加拿大内存、固态、CPU：历史同样来自 PCPartPicker 趋势图（CPU 为各系列平均价）；加拿大每日现价来自 Best Buy 加拿大（含第三方卖家，取中位数）；美国的最新价来自上面的 Pricify 周数据。全球现货：DRAMeXchange 内存颗粒 / 内存条 / 闪存现货价（美元，K线高/低为 Session High/Low，收盘为 Session Average），2023 年以来的历史由互联网档案馆快照回填。汇率为欧洲央行参考汇率。
+        早期估算区间（图上灰带，只在没有实测数据的月份出现）：美国按 <a class="q-link" href="https://www.tomshardware.com/news/gpus-historical-ebay-pricing" target="_blank" rel="noopener">Tom's Hardware 每月 eBay 成交均价</a>（新卡二手混合，±15%；2021 年 3 月前为读图，±20%）；加拿大没有找到早期加元数据，按美国估算 × 当年汇率折算并放宽误差；国内按当时新闻和知乎每日显卡行情里的京东 / 渠道报价（±10%），报道之间的月份插值，离报道越远误差越大（最多 ±35%）。这些是估算，不是成交记录，不计入涨跌和历史最高 / 最低。首发价为官方建议零售价。
         图上的圆点是间隔较大的单点数据（月度 / 周度 / 报道），竖虚线标出数据来源切换处，跨来源的涨跌幅只作参考。每天自动采集一次，开盘 = 前一日收盘。
       </footer>
     </main>
@@ -91,7 +92,7 @@
     // 按顺序加载，并加时间戳避免浏览器缓存旧数据（每天采集后刷新即可看到新价格）
     (function () {
       var v = Date.now();
-      var files = ['data/prices.js', 'data.js', 'app.js'];
+      var files = ['data/prices.js', 'data/estimates.js', 'data.js', 'app.js'];
       (function next(i) {
         if (i >= files.length) return;
         var s = document.createElement('script');

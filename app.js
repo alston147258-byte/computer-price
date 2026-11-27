@@ -285,6 +285,7 @@
       }
     } else {
       stats.push(stat('记录天数', String(n)));
+      if (e.msrp) stats.push(stat('首发价', `${sym(e)}${px(e, e.msrp.p)}`));
       const sn = samples(e);
       stats.push(sn != null ? stat('当天报价', `${sn} 条`, sn < 3 ? 'down' : '') : stat('单位', unit(e)));
     }
@@ -300,6 +301,7 @@
         (onlyHistory ? `<br><span class="q-hist">${hist}</span>`
           : hist && e.segments && e.segments.length ? `<br><span class="q-hist">历史：${hist}${staleSince(e) ? '' : `；之后为 ${esc(e.source)}，口径不同`}</span>`
           : hist ? `<br><span class="q-hist">${hist}</span>` : '') +
+        (e.est && e.est.length ? `<br><span class="q-hist">${e.est[0].day.slice(0, 7)} → ${e.est[e.est.length - 1].day.slice(0, 7)} 没有实测数据，切到「全部」可看按月估算区间（灰带，± 是不确定范围，悬停看依据）</span>` : '') +
         (staleSince(e) ? `<br><span class="q-hist warn">⚠ 数据止于 ${staleSince(e)}，之后没有找到这个型号的报价（可能已停产或退市），下面的价格不是现价</span>` : '')
       : `${regionLabel(cat.region)} · 所属 <span class="q-link" data-goto="${esc(cat.id)}">${esc(cat.name)} 大盘 →</span> · <a class="q-link" href="${esc(e.url)}" target="_blank" rel="noopener nofollow">${esc(linkLabel)}</a>`;
     const rmb = cat.region === 'GLOBAL' ? null : toCNY(e, lb.c);
@@ -437,8 +439,15 @@
       return v;
     });
     const ma5 = maskPts(movingAvg(all, 5), 5), ma20 = maskPts(movingAvg(all, 20), 20);
+    // 早期估算区间：只取时间窗内、实测数据开始之前的月份
+    const est = (e.est || []).filter((b) => b.t.getTime() > cutoff);
+    const launchIn = e.msrp && e.msrp.t.getTime() > cutoff;
     view = {
       entity: e,
+      est,
+      msrp: e.msrp || null,
+      // 首发价线：窗口里有估算区间或首发日时，纵轴把首发价也包进来；否则只在落在纵轴范围内时才画
+      msrpFit: !!(e.msrp && (est.length || launchIn)),
       weekly,
       bars: all.slice(start),
       prevClose: start > 0 ? all[start - 1].c : all[0].o,
@@ -474,9 +483,14 @@
     const bars = view.bars, n = bars.length;
     const e = view.entity;
     // 横轴按真实时间排列（历史数据有缺口、季度报道点很稀疏，按序号等距会把时间压扁）
-    const t0 = bars[0].t.getTime(), t1 = bars[n - 1].t.getTime();
+    const est = view.est || [];
+    const HALF = 15 * DAY; // 估算区间每月一格，左右各半个月
+    const t0 = Math.min(bars[0].t.getTime(), est.length ? est[0].t.getTime() - HALF : Infinity);
+    const t1 = bars[n - 1].t.getTime();
     const edge = Math.min(10, pw / (2 * Math.max(n, 1)));
-    const xs = bars.map((b) => (t1 > t0 ? pad.l + edge + ((b.t.getTime() - t0) / (t1 - t0)) * (pw - 2 * edge) : pad.l + pw / 2));
+    const tx = (t) => (t1 > t0 ? pad.l + edge + ((t - t0) / (t1 - t0)) * (pw - 2 * edge) : pad.l + pw / 2);
+    const xs = bars.map((b) => tx(b.t.getTime()));
+    const exs = est.map((b) => tx(b.t.getTime()));
     const dxs = xs.slice(1).map((v, i) => v - xs[i]).sort((a, b) => a - b);
     const step = dxs.length ? Math.max(1, dxs[Math.floor(dxs.length / 2)]) : pw / 2; // 典型K线间距
 
@@ -486,13 +500,17 @@
       if (state.type === 'candle') { consider(b.h); consider(b.l); } else consider(b.c);
       consider(view.ma5[i]); consider(view.ma20[i]);
     });
+    const dataLo = lo, dataHi = hi;
+    est.forEach((b) => { consider(b.lo); consider(b.hi); });
+    if (view.msrpFit) consider(view.msrp.p);
     const m = (hi - lo) * 0.08 || Math.abs(hi) * 0.03 || 1;
     lo -= m; hi += m;
     const y = (p) => pad.t + ((hi - p) / (hi - lo)) * ph;
     const x = (i) => xs[i];
     const ad = axisDecimals(hi - lo);
     const axisFmt = (v) => fmt(v, ad);
-    geom = { pad, step, n, hi, lo, ph, pw, W, H, axisFmt, xs };
+    geom = { pad, step, n, hi, lo, ph, pw, W, H, axisFmt, xs, exs };
+    const showMsrp = view.msrp && (view.msrpFit || (view.msrp.p >= dataLo && view.msrp.p <= dataHi));
 
     // 网格 + 价格轴
     ctx.font = mono;
@@ -511,17 +529,73 @@
     // 日期轴
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    const multiYear = bars[n - 1].t - bars[0].t > 300 * DAY;
+    const multiYear = t1 - t0 > 300 * DAY;
     const dateLabel = (d) => (multiYear ? `${d.getFullYear()}-${pad2(d.getMonth() + 1)}` : fmtShort(d));
+    const labelPts = est.map((b, j) => [exs[j], b.t]).concat(bars.map((b, i) => [xs[i], b.t]));
     let lastLabelX = Infinity;
-    for (let i = n - 1; i >= 0; i--) {
-      if (lastLabelX - x(i) < 90) continue; // 标签之间至少留 90px
-      lastLabelX = x(i);
-      const xx = Math.round(x(i)) + 0.5;
+    for (let i = labelPts.length - 1; i >= 0; i--) {
+      const [lx0, lt] = labelPts[i];
+      if (lastLabelX - lx0 < 90) continue; // 标签之间至少留 90px
+      lastLabelX = lx0;
+      const xx = Math.round(lx0) + 0.5;
       ctx.strokeStyle = C.grid;
       ctx.beginPath(); ctx.moveTo(xx, pad.t); ctx.lineTo(xx, pad.t + ph); ctx.stroke();
       ctx.fillStyle = C.muted;
-      ctx.fillText(dateLabel(bars[i].t), xx, pad.t + ph + 7);
+      ctx.fillText(dateLabel(lt), xx, pad.t + ph + 7);
+    }
+
+    // 早期估算区间：灰色带（高 = 区间上沿，低 = 下沿），中线虚线；有报道 / 成交数据的月份颜色深一些
+    if (est.length) {
+      const right = xs[0] - Math.max(3, step / 2);
+      for (let j = 0; j < est.length; j++) {
+        const b = est[j];
+        const xa = Math.max(pad.l, tx(b.t.getTime() - HALF));
+        const xb = Math.min(right, tx(b.t.getTime() + HALF));
+        if (xb <= xa) continue;
+        ctx.fillStyle = hexA(C.flat, b.k === 'a' ? 0.32 : 0.16);
+        ctx.fillRect(xa, y(b.hi), xb - xa - 0.5, Math.max(1, y(b.lo) - y(b.hi)));
+      }
+      ctx.beginPath();
+      est.forEach((b, j) => { const m = (b.lo + b.hi) / 2; j ? ctx.lineTo(exs[j], y(m)) : ctx.moveTo(exs[j], y(m)); });
+      ctx.strokeStyle = C.flat;
+      ctx.setLineDash([4, 3]);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      // 估算 / 实测分界
+      const bx = Math.round(Math.min(right, exs[exs.length - 1] + (xs[0] - exs[exs.length - 1]) / 2)) + 0.5;
+      ctx.strokeStyle = C.muted;
+      ctx.setLineDash([2, 3]);
+      ctx.beginPath(); ctx.moveTo(bx, pad.t); ctx.lineTo(bx, pad.t + ph); ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.font = '11px ' + cssVar('--mono');
+      ctx.fillStyle = C.muted;
+      ctx.textBaseline = 'bottom';
+      ctx.textAlign = 'left';
+      // 放在左下角：顶部留给数据来源切换标签
+      ctx.fillText('灰带 = 估算区间（非实测，悬停看依据）', pad.l + 4, pad.t + ph - 4);
+      ctx.font = mono;
+    }
+
+    // 首发价参考线
+    if (showMsrp) {
+      const my = Math.round(y(view.msrp.p)) + 0.5;
+      ctx.strokeStyle = C.ma20;
+      ctx.setLineDash([1, 3]);
+      ctx.beginPath(); ctx.moveTo(pad.l, my); ctx.lineTo(pad.l + pw, my); ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.font = '11px ' + cssVar('--mono');
+      ctx.fillStyle = C.ma20;
+      ctx.textAlign = 'right';
+      ctx.textBaseline = 'bottom';
+      ctx.fillText(`首发价 ${sym(e)}${px(e, view.msrp.p)}（${view.msrp.day}）`, pad.l + pw - 4, my - 2);
+      const lt = view.msrp.t.getTime();
+      if (lt >= t0 && lt <= t1) {
+        const lx = tx(lt);
+        ctx.beginPath();
+        ctx.moveTo(lx, my - 5); ctx.lineTo(lx + 5, my); ctx.lineTo(lx, my + 5); ctx.lineTo(lx - 5, my); ctx.closePath();
+        ctx.fill();
+      }
+      ctx.font = mono;
     }
 
     const barColor = (i) => {
@@ -628,7 +702,29 @@
     axisTag(px(e, lastC), pad.l + pw, ly, lastCol, '#fff');
 
     // 十字光标
-    if (state.hover) {
+    if (state.hover && state.hover.est != null && est[state.hover.est]) {
+      const j = state.hover.est, b = est[j];
+      const xx = Math.round(exs[j]) + 0.5;
+      ctx.strokeStyle = C.muted;
+      ctx.setLineDash([4, 4]);
+      ctx.beginPath(); ctx.moveTo(xx, pad.t); ctx.lineTo(xx, pad.t + ph); ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.strokeStyle = C.text;
+      ctx.strokeRect(Math.round(Math.max(pad.l, tx(b.t.getTime() - HALF))) + 0.5, Math.round(y(b.hi)) + 0.5,
+        Math.max(2, Math.round(tx(b.t.getTime() + HALF) - tx(b.t.getTime() - HALF)) - 1), Math.max(1, Math.round(y(b.lo) - y(b.hi))));
+      const label = `${b.day.slice(0, 7)} 估算`;
+      ctx.font = mono;
+      const tw = ctx.measureText(label).width + 12;
+      const lx = Math.max(pad.l, Math.min(pad.l + pw - tw, xx - tw / 2));
+      ctx.fillStyle = C.panel;
+      ctx.fillRect(lx, pad.t + ph + 2, tw, 18);
+      ctx.strokeStyle = C.border;
+      ctx.strokeRect(lx + 0.5, pad.t + ph + 2.5, tw - 1, 17);
+      ctx.fillStyle = C.text;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(label, lx + tw / 2, pad.t + ph + 11);
+    } else if (state.hover && state.hover.i != null) {
       const i = state.hover.i;
       const xx = Math.round(x(i)) + 0.5;
       const yy = Math.max(pad.t, Math.min(pad.t + ph, state.hover.y));
@@ -711,16 +807,47 @@
     }
   }
 
+  // 找横向距离最近的K线或估算月份
+  function pick(mx, my) {
+    let i = 0;
+    for (let k = 1; k < geom.n; k++) if (Math.abs(geom.xs[k] - mx) < Math.abs(geom.xs[i] - mx)) i = k;
+    let j = -1;
+    (geom.exs || []).forEach((v, k) => { if (j < 0 || Math.abs(v - mx) < Math.abs(geom.exs[j] - mx)) j = k; });
+    if (j >= 0 && Math.abs(geom.exs[j] - mx) < Math.abs(geom.xs[i] - mx)) return { est: j, y: my };
+    return { i, y: my };
+  }
+  function showHover(h) {
+    state.hover = h;
+    if (h.est != null) renderEstInfo(h.est); else renderInfo(h.i);
+    drawChart();
+  }
+
+  // 估算月份的说明：区间、中值 ± 误差、依据和出处
+  function renderEstInfo(j) {
+    const e = view.entity, b = view.est[j];
+    const step = e.currency === 'CNY' ? 50 : 10;
+    const r = (v) => Math.round(v / step) * step;
+    const mid = r((b.lo + b.hi) / 2), pm = r((b.hi - b.lo) / 2);
+    const kind = b.k === 'a' ? '当月有报道 / 成交数据'
+      : b.k === 'i' ? '前后两个数据点之间插值，误差放宽'
+      : '没有加元数据：按美国估算 × 当年美元兑加元汇率折算，误差放宽';
+    const links = b.src.map((k) => M.estSources[k]).filter(Boolean).map((s) => {
+      let host = '';
+      try { host = new URL(s.url).hostname.replace(/^www\./, ''); } catch (err) { /* ignore */ }
+      return `<a class="q-link" href="${esc(s.url)}" target="_blank" rel="noopener nofollow" title="${esc(s.label)}">${esc(host)} ↗</a>`;
+    }).join(' ');
+    $('#ohlcInfo').innerHTML = `
+      <span><span class="k">${b.day.slice(0, 7)} 估算</span></span>
+      <span>${sym(e)}${fmt(mid)} ± ${fmt(pm)}</span>
+      <span><span class="k">区间</span>${fmt(b.lo)}–${fmt(b.hi)}</span>
+      <span><span class="k">依据</span>${kind}</span>
+      <span>${links}</span>`;
+  }
+
   canvas.addEventListener('mousemove', (ev) => {
     if (!geom) return;
     const r = canvas.getBoundingClientRect();
-    const mx = ev.clientX - r.left, my = ev.clientY - r.top;
-    // 找横向距离最近的K线
-    let i = 0;
-    for (let k = 1; k < geom.n; k++) if (Math.abs(geom.xs[k] - mx) < Math.abs(geom.xs[i] - mx)) i = k;
-    state.hover = { i, y: my };
-    renderInfo(i);
-    drawChart();
+    showHover(pick(ev.clientX - r.left, ev.clientY - r.top));
   });
   canvas.addEventListener('mouseleave', () => {
     state.hover = null;
@@ -733,12 +860,7 @@
     if (!geom || !ev.touches.length) return;
     const t = ev.touches[0];
     const r = canvas.getBoundingClientRect();
-    const mx = t.clientX - r.left;
-    let i = 0;
-    for (let k = 1; k < geom.n; k++) if (Math.abs(geom.xs[k] - mx) < Math.abs(geom.xs[i] - mx)) i = k;
-    state.hover = { i, y: t.clientY - r.top };
-    renderInfo(i);
-    drawChart();
+    showHover(pick(t.clientX - r.left, t.clientY - r.top));
     clearTimeout(touchTimer);
   };
   canvas.addEventListener('touchstart', onTouch, { passive: true });
@@ -930,7 +1052,7 @@
     const upd = M.updated ? new Date(M.updated.replace(' ', 'T')) : null;
     if (upd) {
       const days = Math.floor((Date.now() - upd.getTime()) / DAY);
-      if (days >= 2) msgs.push(`数据已经 ${days} 天没有更新（每天 19:00 自动采集，需要电脑开机并登录 Windows）`);
+      if (days >= 2) msgs.push(`数据已经 ${days} 天没有更新（每天由 GitHub Actions 自动采集，可能是云端任务出错了）`);
     }
     for (const [k, h] of Object.entries(M.health || {})) {
       if (!h.fails) continue;
