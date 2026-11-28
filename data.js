@@ -75,8 +75,7 @@
     for (const [id, v] of Object.entries(EST.entities)) {
       const c = byId[id];
       if (!c || c.kind !== 'index') continue;
-      const first = c.bars[0].day;
-      c.est = (v.bands || []).filter((b) => b.d < first)
+      c.est = (v.bands || [])
         .map((b) => ({ t: parseDay(b.d), day: b.d, lo: b.lo, hi: b.hi, k: b.k, src: b.src || [] }));
       if (v.msrp) c.msrp = { t: parseDay(v.msrp.d), day: v.msrp.d, p: v.msrp.p, src: v.msrp.src };
     }
