@@ -1163,14 +1163,18 @@ def run(args):
             record_health(history, 'netlify', False, str(e))
             log(f'[部署] 失败 {e}')
     # 采集完自动备份（备份失败不影响采集结果）
-    try:
-        import backup
-        _, to_drive = backup.run()
-        record_health(history, 'backup', to_drive, '' if to_drive else '没找到 Google Drive，只备份到了本地')
-    except Exception as e:
-        errors.append(f'备份: {e}')
-        record_health(history, 'backup', False, str(e))
-        log(f'[备份] 失败 {e}')
+    # 在 GitHub Actions 里运行时跳过：数据每次都提交进仓库，仓库本身就是备份，云端也没有 Google Drive
+    if os.environ.get('GITHUB_ACTIONS') == 'true':
+        history.get('health', {}).pop('backup', None)
+    else:
+        try:
+            import backup
+            _, to_drive = backup.run()
+            record_health(history, 'backup', to_drive, '' if to_drive else '没找到 Google Drive，只备份到了本地')
+        except Exception as e:
+            errors.append(f'备份: {e}')
+            record_health(history, 'backup', False, str(e))
+            log(f'[备份] 失败 {e}')
     save_history(history, quiet=True)  # 把部署 / 备份的结果也记下来（下次页面显示）
     if errors:
         log('部分失败：\n  ' + '\n  '.join(errors))
