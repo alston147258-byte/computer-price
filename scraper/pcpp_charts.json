@@ -2489,6 +2489,13 @@
       "top": 1200,
       "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.09.09.cad.ram.ddr5.6000.2x16384.6f72bc2170e45d452ffd0b0a124b6179.png",
       "top_auto": true
+    },
+    {
+      "region": "US",
+      "key": "ssd2t",
+      "top": 1200,
+      "url": "https://cdna.pcpartpicker.com/static/forever/images/trends/2026.10.24.usd.storage.ssdm2nvme.2000.633385777a91f6eb8a56d6675b6eaa36.png",
+      "top_auto": true
     }
   ]
 }
