@@ -75,7 +75,10 @@
     for (const [id, v] of Object.entries(EST.entities)) {
       const c = byId[id];
       if (!c || c.kind !== 'index') continue;
-      c.est = (v.bands || [])
+      // 估算文件生成之后又采到实测的月份：不再画灰带
+      const days = c.bars.map((b) => b.t.getTime());
+      const hasActual = (s) => { const t = parseDay(s).getTime(); return days.some((x) => Math.abs(x - t) <= 16 * 864e5); };
+      c.est = (v.bands || []).filter((b) => !hasActual(b.d))
         .map((b) => ({ t: parseDay(b.d), day: b.d, lo: b.lo, hi: b.hi, k: b.k, src: b.src || [] }));
       if (v.msrp) c.msrp = { t: parseDay(v.msrp.d), day: v.msrp.d, p: v.msrp.p, src: v.msrp.src };
     }

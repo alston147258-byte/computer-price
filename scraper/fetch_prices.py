@@ -1146,6 +1146,12 @@ def run(args):
         return 1 if errors else 0
 
     save_history(history)
+    # 按最新数据重算估算区间（新数据填上的月份去掉灰带，末尾的空档往后延）
+    try:
+        import build_estimates
+        build_estimates.main()
+    except Exception as e:
+        log(f'[估算] 失败 {e}')
     # 更新可发布的网站目录 site/
     try:
         import build_site
